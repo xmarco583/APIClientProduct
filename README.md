@@ -37,3 +37,17 @@ Este proyecto consiste en la creación de una API que devuelve información del 
 ## Uso de la API
 El uso de la API puede ser demostrado desde Postman. Se debe realizar una petición a la API enviando el **codigoUnico** encriptado. La API responderá con la información del cliente y sus productos financieros.
 
+##Endpoint de microservicio cliente 
+
+```json
+{
+  "id": 1,
+  "codigoUnico": 124,
+  "nombres": "Juan Daniel",
+  "apellidos": "Alvarado Diaz",
+  "tipoDoc": "DNI",
+  "numeroDoc": "74823099"
+}
+
+
+
