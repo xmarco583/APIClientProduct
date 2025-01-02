@@ -1,0 +1,582 @@
+2024-12-29 23:51:38 INFO  [restartedMain] c.cortez.testapi.TestapiApplication - Starting TestapiApplication using Java 17.0.13 with PID 51868 (C:\Users\Marco\Desktop\testapi\target\classes started by Marco in C:\Users\Marco\Desktop\testapi)
+2024-12-29 23:51:38 DEBUG [restartedMain] c.cortez.testapi.TestapiApplication - Running with Spring Boot v3.4.1, Spring v6.2.1
+2024-12-29 23:51:38 INFO  [restartedMain] c.cortez.testapi.TestapiApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-29 23:51:38 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-29 23:51:38 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-29 23:51:39 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2024-12-29 23:51:39 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 130 ms. Found 2 R2DBC repository interfaces.
+2024-12-29 23:51:40 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 7000 (http)
+2024-12-29 23:51:40 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-7000"]
+2024-12-29 23:51:40 INFO  [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-29 23:51:40 INFO  [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-29 23:51:40 INFO  [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-29 23:51:40 INFO  [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1687 ms
+2024-12-29 23:51:40 DEBUG [restartedMain] i.n.u.i.l.InternalLoggerFactory - Using SLF4J as the default logging framework
+2024-12-29 23:51:40 DEBUG [restartedMain] io.asyncer.r2dbc.mysql.Extensions - Discovering Extensions using ServiceLoader
+2024-12-29 23:51:40 DEBUG [restartedMain] reactor.util.Loggers - Using Slf4j logging framework
+2024-12-29 23:51:40 DEBUG [restartedMain] i.n.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+2024-12-29 23:51:40 DEBUG [restartedMain] i.n.util.internal.PlatformDependent0 - Java version: 17
+2024-12-29 23:51:40 DEBUG [restartedMain] i.n.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+2024-12-29 23:51:40 DEBUG [restartedMain] i.n.util.internal.PlatformDependent0 - sun.misc.Unsafe base methods: all available
+2024-12-29 23:51:40 DEBUG [restartedMain] i.n.util.internal.PlatformDependent0 - sun.misc.Unsafe.storeFence: available
+2024-12-29 23:51:40 DEBUG [restartedMain] i.n.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+2024-12-29 23:51:40 DEBUG [restartedMain] i.n.util.internal.PlatformDependent0 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2024-12-29 23:51:40 DEBUG [restartedMain] i.n.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+2024-12-29 23:51:40 DEBUG [restartedMain] i.n.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @1e1dcecd
+2024-12-29 23:51:40 DEBUG [restartedMain] i.n.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, {int,long}): unavailable
+2024-12-29 23:51:40 DEBUG [restartedMain] i.n.util.internal.PlatformDependent - sun.misc.Unsafe: available
+2024-12-29 23:51:40 DEBUG [restartedMain] i.n.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\Marco\AppData\Local\Temp (java.io.tmpdir)
+2024-12-29 23:51:40 DEBUG [restartedMain] i.n.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2024-12-29 23:51:40 DEBUG [restartedMain] i.n.util.internal.PlatformDependent - Platform: Windows
+2024-12-29 23:51:40 DEBUG [restartedMain] i.n.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: -1 bytes
+2024-12-29 23:51:40 DEBUG [restartedMain] i.n.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2024-12-29 23:51:40 DEBUG [restartedMain] io.netty.util.internal.CleanerJava9 - java.nio.ByteBuffer.cleaner(): available
+2024-12-29 23:51:40 DEBUG [restartedMain] i.n.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+2024-12-29 23:51:40 DEBUG [restartedMain] reactor.netty.tcp.TcpResources - [tcp] resources will use the default LoopResources: DefaultLoopResources {prefix=reactor-tcp, daemon=true, selectCount=16, workerCount=16}
+2024-12-29 23:51:40 DEBUG [restartedMain] reactor.netty.tcp.TcpResources - [tcp] resources will use the default ConnectionProvider: reactor.netty.resources.DefaultPooledConnectionProvider@36d7918e
+2024-12-29 23:51:40 WARN  [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2024-12-29 23:51:41 DEBUG [restartedMain] reactor.pool.SimpleDequePool - should warm up 9 extra resources
+2024-12-29 23:51:41 DEBUG [single-1] io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+2024-12-29 23:51:41 DEBUG [single-1] io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+2024-12-29 23:51:41 DEBUG [single-1] r.netty.resources.DefaultLoopIOUring - Default io_uring support : false
+2024-12-29 23:51:41 DEBUG [single-1] r.netty.resources.DefaultLoopEpoll - Default Epoll support : false
+2024-12-29 23:51:41 DEBUG [single-1] r.netty.resources.DefaultLoopKQueue - Default KQueue support : false
+2024-12-29 23:51:41 DEBUG [single-1] i.n.c.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 32
+2024-12-29 23:51:41 DEBUG [single-1] i.n.u.concurrent.GlobalEventExecutor - -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+2024-12-29 23:51:41 DEBUG [single-1] i.n.u.i.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2024-12-29 23:51:41 DEBUG [single-1] i.n.u.i.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2024-12-29 23:51:41 DEBUG [single-1] io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+2024-12-29 23:51:41 DEBUG [single-1] io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+2024-12-29 23:51:41 DEBUG [single-1] i.n.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+2024-12-29 23:51:41 DEBUG [single-1] io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+2024-12-29 23:51:41 DEBUG [single-1] io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+2024-12-29 23:51:41 DEBUG [single-1] i.netty.util.NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2024-12-29 23:51:41 DEBUG [single-1] io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2024-12-29 23:51:41 DEBUG [single-1] i.netty.resolver.dns.DnsNameResolver - Default ResolvedAddressTypes: IPV4_ONLY
+2024-12-29 23:51:41 DEBUG [single-1] i.netty.resolver.dns.DnsNameResolver - Localhost address: localhost/127.0.0.1
+2024-12-29 23:51:41 DEBUG [single-1] i.netty.resolver.dns.DnsNameResolver - Windows hostname: PC-Marco
+2024-12-29 23:51:41 DEBUG [single-1] i.netty.resolver.dns.DnsNameResolver - Default search domains: []
+2024-12-29 23:51:41 DEBUG [single-1] i.netty.resolver.dns.DnsNameResolver - Default UnixResolverOptions{ndots=1, timeout=5, attempts=16}
+2024-12-29 23:51:41 DEBUG [single-1] i.n.r.DefaultHostsFileEntriesResolver - -Dio.netty.hostsFileRefreshInterval: 0
+2024-12-29 23:51:41 DEBUG [single-1] i.n.r.d.DefaultDnsServerAddressStreamProvider - Default DNS servers: [/8.8.8.8:53, /8.8.4.4:53] (sun.net.dns.ResolverConfiguration)
+2024-12-29 23:51:41 DEBUG [single-1] io.netty.channel.DefaultChannelId - -Dio.netty.processId: 51868 (auto-detected)
+2024-12-29 23:51:41 DEBUG [single-1] io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 24:4b:fe:ff:fe:5d:a3:0a (auto-detected)
+2024-12-29 23:51:41 DEBUG [single-1] i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 32
+2024-12-29 23:51:41 DEBUG [single-1] i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 32
+2024-12-29 23:51:41 DEBUG [single-1] i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+2024-12-29 23:51:41 DEBUG [single-1] i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 9
+2024-12-29 23:51:41 DEBUG [single-1] i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 4194304
+2024-12-29 23:51:41 DEBUG [single-1] i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+2024-12-29 23:51:41 DEBUG [single-1] i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+2024-12-29 23:51:41 DEBUG [single-1] i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2024-12-29 23:51:41 DEBUG [single-1] i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+2024-12-29 23:51:41 DEBUG [single-1] i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2024-12-29 23:51:41 DEBUG [single-1] i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: false
+2024-12-29 23:51:41 DEBUG [single-1] i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2024-12-29 23:51:41 DEBUG [single-1] i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.disableCacheFinalizersForFastThreadLocalThreads: false
+2024-12-29 23:51:41 DEBUG [single-1] io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+2024-12-29 23:51:41 DEBUG [single-1] io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+2024-12-29 23:51:41 DEBUG [single-1] io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2024-12-29 23:51:41 DEBUG [reactor-tcp-nio-2] r.netty.transport.TransportConfig - [18522e8d] Initialized pipeline DefaultChannelPipeline{(reactor.right.reactiveBridge = reactor.netty.channel.ChannelOperationsHandler)}
+2024-12-29 23:51:41 DEBUG [reactor-tcp-nio-2] i.n.r.dns.DnsNameResolverBuilder - resolveCache and TTLs are mutually exclusive. TTLs are ignored.
+2024-12-29 23:51:41 DEBUG [reactor-tcp-nio-2] i.n.r.dns.DnsNameResolverBuilder - cnameCache and TTLs are mutually exclusive. TTLs are ignored.
+2024-12-29 23:51:41 DEBUG [reactor-tcp-nio-2] i.n.r.dns.DnsNameResolverBuilder - authoritativeDnsServerCache and TTLs are mutually exclusive. TTLs are ignored.
+2024-12-29 23:51:41 DEBUG [reactor-tcp-nio-2] i.n.b.ChannelInitializerExtensions - -Dio.netty.bootstrap.extensions: null
+2024-12-29 23:51:41 DEBUG [reactor-tcp-nio-2] r.netty.transport.TransportConnector - [18522e8d] Connecting to [localhost/127.0.0.1:3306].
+2024-12-29 23:51:41 DEBUG [reactor-tcp-nio-2] r.n.resources.NewConnectionProvider - [18522e8d, L:/127.0.0.1:51806 - R:localhost/127.0.0.1:3306] Connected new channel
+2024-12-29 23:51:41 DEBUG [reactor-tcp-nio-2] r.n.resources.NewConnectionProvider - [18522e8d, L:/127.0.0.1:51806 - R:localhost/127.0.0.1:3306] onStateChange([connected], SimpleConnection{channel=[id: 0x18522e8d, L:/127.0.0.1:51806 - R:localhost/127.0.0.1:3306]})
+2024-12-29 23:51:41 DEBUG [reactor-tcp-nio-2] r.n.resources.NewConnectionProvider - [18522e8d, L:/127.0.0.1:51806 - R:localhost/127.0.0.1:3306] onStateChange([configured], ChannelOperations{SimpleConnection{channel=[id: 0x18522e8d, L:/127.0.0.1:51806 - R:localhost/127.0.0.1:3306]}})
+2024-12-29 23:51:41 DEBUG [reactor-tcp-nio-2] reactor.netty.ReactorNetty - [18522e8d, L:/127.0.0.1:51806 - R:localhost/127.0.0.1:3306] Added decoder [R2dbcMySqlMessageDuplexCodec] at the end of the user pipeline, full pipeline: [R2dbcMySqlMessageDuplexCodec, reactor.right.reactiveBridge, DefaultChannelPipeline$TailContext#0]
+2024-12-29 23:51:41 DEBUG [reactor-tcp-nio-2] reactor.netty.ReactorNetty - [18522e8d, L:/127.0.0.1:51806 - R:localhost/127.0.0.1:3306] Added encoder [R2dbcMySqlSslBridgeHandler] at the beginning of the user pipeline, full pipeline: [R2dbcMySqlSslBridgeHandler, R2dbcMySqlMessageDuplexCodec, reactor.right.reactiveBridge, DefaultChannelPipeline$TailContext#0]
+2024-12-29 23:51:41 DEBUG [reactor-tcp-nio-2] reactor.netty.channel.FluxReceive - [18522e8d, L:/127.0.0.1:51806 - R:localhost/127.0.0.1:3306] [terminated=false, cancelled=false, pending=0, error=null]: subscribing inbound receiver
+2024-12-29 23:51:41 DEBUG [reactor-tcp-nio-2] io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2024-12-29 23:51:41 DEBUG [reactor-tcp-nio-2] io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+2024-12-29 23:51:41 DEBUG [reactor-tcp-nio-2] io.netty.util.Recycler - -Dio.netty.recycler.chunkSize: 32
+2024-12-29 23:51:41 DEBUG [reactor-tcp-nio-2] io.netty.util.Recycler - -Dio.netty.recycler.blocking: false
+2024-12-29 23:51:41 DEBUG [reactor-tcp-nio-2] io.netty.util.Recycler - -Dio.netty.recycler.batchFastThreadLocalOnly: true
+2024-12-29 23:51:41 DEBUG [reactor-tcp-nio-2] io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+2024-12-29 23:51:41 DEBUG [reactor-tcp-nio-2] io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+2024-12-29 23:51:41 DEBUG [reactor-tcp-nio-2] i.n.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@7f6d5077
+2024-12-29 23:51:41 DEBUG [reactor-tcp-nio-2] i.a.r.m.client.ReactorNettyClient - Response: HandshakeV10Request{header=HandshakeHeader{protocolVersion=10, serverVersion=8.0.36, connectionId=370}, salt=REDACTED, serverCapability=Capability<0x5bfafbf>, serverStatuses=2, authType='caching_sha2_password'}
+2024-12-29 23:51:41 DEBUG [reactor-tcp-nio-2] i.a.r.m.client.ReactorNettyClient - Request: SslRequest41{capability=Capability<0x12faa0f>, collationId=45}
+2024-12-29 23:51:41 DEBUG [reactor-tcp-nio-2] i.a.r.mysql.client.SslBridgeHandler - SSL event triggered, enable SSL handler to pipeline
+2024-12-29 23:51:41 DEBUG [reactor-tcp-nio-2] io.netty.handler.ssl.OpenSsl - netty-tcnative not in the classpath; OpenSslEngine will be unavailable.
+2024-12-29 23:51:41 DEBUG [reactor-tcp-nio-2] io.netty.handler.ssl.JdkSslContext - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+2024-12-29 23:51:41 DEBUG [reactor-tcp-nio-2] io.netty.handler.ssl.JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+2024-12-29 23:51:41 DEBUG [reactor-tcp-nio-2] i.n.h.s.u.InsecureTrustManagerFactory - Accepting a server certificate: CN=MySQL_Server_8.0.36_Auto_Generated_Server_Certificate
+2024-12-29 23:51:41 DEBUG [reactor-tcp-nio-2] io.netty.handler.ssl.SslHandler - [id: 0x18522e8d, L:/127.0.0.1:51806 - R:localhost/127.0.0.1:3306] HANDSHAKEN: protocol:TLSv1.3 cipher suite:TLS_AES_128_GCM_SHA256
+2024-12-29 23:51:41 DEBUG [reactor-tcp-nio-2] i.a.r.m.client.ReactorNettyClient - Response: SyntheticSslResponseMessage{}
+2024-12-29 23:51:41 DEBUG [reactor-tcp-nio-2] i.a.r.m.client.ReactorNettyClient - Request: HandshakeResponse41{capability=Capability<0x12faa0f>, collationId=45, user='root', authentication=REDACTED, authType='caching_sha2_password', database='testdb', attributes={}, zstdCompressionLevel=3}
+2024-12-29 23:51:41 DEBUG [reactor-tcp-nio-2] i.a.r.mysql.client.SslBridgeHandler - SSL handshake completed, remove SSL bridge in pipeline
+2024-12-29 23:51:41 DEBUG [reactor-tcp-nio-2] i.a.r.m.client.ReactorNettyClient - Response: AuthMoreDataMessage{failed=false}
+2024-12-29 23:51:41 DEBUG [reactor-tcp-nio-2] i.a.r.m.client.MessageDuplexCodec - Decode context change to DecodeContext-Command
+2024-12-29 23:51:41 DEBUG [reactor-tcp-nio-2] i.a.r.m.client.ReactorNettyClient - Response: OkMessage{isEndOfRows=false, affectedRows=0, lastInsertId=0, serverStatuses=2, information='', systemVariables={}}
+2024-12-29 23:51:41 DEBUG [reactor-tcp-nio-2] io.asyncer.r2dbc.mysql.InitFlow - Initializing client session: []
+2024-12-29 23:51:41 DEBUG [reactor-tcp-nio-2] io.asyncer.r2dbc.mysql.QUERY - Executing statement [SELECT @@transaction_isolation AS i,@@version_comment AS v]
+2024-12-29 23:51:41 DEBUG [reactor-tcp-nio-2] i.a.r.m.client.ReactorNettyClient - Request: TextQueryMessage{sql=REDACTED}
+2024-12-29 23:51:41 DEBUG [reactor-tcp-nio-2] i.a.r.m.client.MessageDuplexCodec - Decode context change to DecodeContext-Result
+2024-12-29 23:51:41 DEBUG [reactor-tcp-nio-2] i.a.r.m.m.s.MetadataDecodeContext - Respond a metadata bundle by filled-up
+2024-12-29 23:51:41 DEBUG [reactor-tcp-nio-2] i.a.r.m.client.ReactorNettyClient - Response: SyntheticMetadataMessage{completed=false, messages=[DefinitionMetadataMessage{database='', table='' (origin:''), column='i' (origin:''), collationId=45, size=87380, type=253, definitions=0, decimals=31}, DefinitionMetadataMessage{database='', table='' (origin:''), column='v' (origin:''), collationId=45, size=87380, type=253, definitions=0, decimals=31}], eof=null}
+2024-12-29 23:51:41 DEBUG [reactor-tcp-nio-2] i.a.r.m.client.ReactorNettyClient - Response: RowMessage(encoded)
+2024-12-29 23:51:41 DEBUG [reactor-tcp-nio-2] i.a.r.m.client.MessageDuplexCodec - Decode context change to DecodeContext-Command
+2024-12-29 23:51:41 DEBUG [reactor-tcp-nio-2] i.a.r.m.client.ReactorNettyClient - Response: OkMessage{isEndOfRows=true, affectedRows=0, lastInsertId=0, serverStatuses=2, information='', systemVariables={}}
+2024-12-29 23:51:41 DEBUG [reactor-tcp-nio-2] io.asyncer.r2dbc.mysql.QUERY - Executing statement [SHOW VARIABLES LIKE 'innodb_lock_wait_timeout']
+2024-12-29 23:51:41 DEBUG [reactor-tcp-nio-2] i.a.r.m.client.ReactorNettyClient - Request: TextQueryMessage{sql=REDACTED}
+2024-12-29 23:51:41 DEBUG [reactor-tcp-nio-2] i.a.r.m.client.MessageDuplexCodec - Decode context change to DecodeContext-Result
+2024-12-29 23:51:41 DEBUG [reactor-tcp-nio-2] i.a.r.m.m.s.MetadataDecodeContext - Respond a metadata bundle by filled-up
+2024-12-29 23:51:41 DEBUG [reactor-tcp-nio-2] i.a.r.m.client.ReactorNettyClient - Response: SyntheticMetadataMessage{completed=false, messages=[DefinitionMetadataMessage{database='performance_schema', table='session_variables' (origin:'session_variables'), column='Variable_name' (origin:'Variable_name'), collationId=45, size=256, type=253, definitions=4097, decimals=0}, DefinitionMetadataMessage{database='performance_schema', table='session_variables' (origin:'session_variables'), column='Value' (origin:'Value'), collationId=45, size=4096, type=253, definitions=0, decimals=0}], eof=null}
+2024-12-29 23:51:41 DEBUG [reactor-tcp-nio-2] i.a.r.m.client.ReactorNettyClient - Response: RowMessage(encoded)
+2024-12-29 23:51:41 DEBUG [reactor-tcp-nio-2] i.a.r.m.client.MessageDuplexCodec - Decode context change to DecodeContext-Command
+2024-12-29 23:51:41 DEBUG [reactor-tcp-nio-2] i.a.r.m.client.ReactorNettyClient - Response: OkMessage{isEndOfRows=true, affectedRows=0, lastInsertId=0, serverStatuses=22, information='', systemVariables={}}
+2024-12-29 23:51:41 DEBUG [reactor-tcp-nio-2] io.asyncer.r2dbc.mysql.InitFlow - Initializing connection 370 context: SessionState{level=IsolationLevel{sql='REPEATABLE READ'}, product='MySQL Community Server - GPL', timeZone=null, lockWaitTimeout=PT50S, lockWaitTimeoutSupported=true}
+2024-12-29 23:51:41 DEBUG [reactor-tcp-nio-2] i.a.r.mysql.MySqlSimpleConnection - Batch is supported by server
+2024-12-29 23:51:41 DEBUG [reactor-tcp-nio-2] io.r2dbc.pool.ConnectionPool - Obtaining new connection from the pool
+2024-12-29 23:51:41 DEBUG [reactor-tcp-nio-3] r.netty.transport.TransportConfig - [51c5c59c] Initialized pipeline DefaultChannelPipeline{(reactor.right.reactiveBridge = reactor.netty.channel.ChannelOperationsHandler)}
+2024-12-29 23:51:41 DEBUG [reactor-tcp-nio-3] i.n.r.dns.DnsNameResolverBuilder - resolveCache and TTLs are mutually exclusive. TTLs are ignored.
+2024-12-29 23:51:41 DEBUG [reactor-tcp-nio-3] i.n.r.dns.DnsNameResolverBuilder - cnameCache and TTLs are mutually exclusive. TTLs are ignored.
+2024-12-29 23:51:41 DEBUG [reactor-tcp-nio-3] i.n.r.dns.DnsNameResolverBuilder - authoritativeDnsServerCache and TTLs are mutually exclusive. TTLs are ignored.
+2024-12-29 23:51:41 DEBUG [reactor-tcp-nio-3] r.netty.transport.TransportConnector - [51c5c59c] Connecting to [localhost/127.0.0.1:3306].
+2024-12-29 23:51:41 DEBUG [Thread-36] i.a.r.mysql.MySqlSimpleConnection - Create a simple statement provided by text query
+2024-12-29 23:51:41 DEBUG [reactor-tcp-nio-3] r.n.resources.NewConnectionProvider - [51c5c59c, L:/127.0.0.1:51807 - R:localhost/127.0.0.1:3306] Connected new channel
+2024-12-29 23:51:41 DEBUG [reactor-tcp-nio-3] r.n.resources.NewConnectionProvider - [51c5c59c, L:/127.0.0.1:51807 - R:localhost/127.0.0.1:3306] onStateChange([connected], SimpleConnection{channel=[id: 0x51c5c59c, L:/127.0.0.1:51807 - R:localhost/127.0.0.1:3306]})
+2024-12-29 23:51:41 DEBUG [reactor-tcp-nio-3] r.n.resources.NewConnectionProvider - [51c5c59c, L:/127.0.0.1:51807 - R:localhost/127.0.0.1:3306] onStateChange([configured], ChannelOperations{SimpleConnection{channel=[id: 0x51c5c59c, L:/127.0.0.1:51807 - R:localhost/127.0.0.1:3306]}})
+2024-12-29 23:51:41 DEBUG [reactor-tcp-nio-3] reactor.netty.ReactorNetty - [51c5c59c, L:/127.0.0.1:51807 - R:localhost/127.0.0.1:3306] Added decoder [R2dbcMySqlMessageDuplexCodec] at the end of the user pipeline, full pipeline: [R2dbcMySqlMessageDuplexCodec, reactor.right.reactiveBridge, DefaultChannelPipeline$TailContext#0]
+2024-12-29 23:51:41 DEBUG [reactor-tcp-nio-3] reactor.netty.ReactorNetty - [51c5c59c, L:/127.0.0.1:51807 - R:localhost/127.0.0.1:3306] Added encoder [R2dbcMySqlSslBridgeHandler] at the beginning of the user pipeline, full pipeline: [R2dbcMySqlSslBridgeHandler, R2dbcMySqlMessageDuplexCodec, reactor.right.reactiveBridge, DefaultChannelPipeline$TailContext#0]
+2024-12-29 23:51:41 DEBUG [reactor-tcp-nio-3] reactor.netty.channel.FluxReceive - [51c5c59c, L:/127.0.0.1:51807 - R:localhost/127.0.0.1:3306] [terminated=false, cancelled=false, pending=0, error=null]: subscribing inbound receiver
+2024-12-29 23:51:41 DEBUG [Thread-36] io.asyncer.r2dbc.mysql.QUERY - Executing statement [CREATE TABLE IF NOT EXISTS `testdb`.`clientes` ( `id` BIGINT UNSIGNED NOT NULL AUTO_INCREMENT, `codigounico` BIGINT UNSIGNED NOT NULL, `nombres` VARCHAR(45) NULL, `apellidos` VARCHAR(45) NULL, `tipodoc` VARCHAR(45) NULL, `numerodoc` BIGINT NULL, PRIMARY KEY (`id`), UNIQUE INDEX `codigounico_UNIQUE` (`codigounico` ASC) VISIBLE)]
+2024-12-29 23:51:41 DEBUG [Thread-36] i.a.r.m.client.ReactorNettyClient - Request: TextQueryMessage{sql=REDACTED}
+2024-12-29 23:51:41 DEBUG [reactor-tcp-nio-3] i.a.r.m.client.ReactorNettyClient - Response: HandshakeV10Request{header=HandshakeHeader{protocolVersion=10, serverVersion=8.0.36, connectionId=371}, salt=REDACTED, serverCapability=Capability<0x5bfafbf>, serverStatuses=2, authType='caching_sha2_password'}
+2024-12-29 23:51:41 DEBUG [reactor-tcp-nio-3] i.a.r.m.client.ReactorNettyClient - Request: SslRequest41{capability=Capability<0x12faa0f>, collationId=45}
+2024-12-29 23:51:41 DEBUG [reactor-tcp-nio-3] i.a.r.mysql.client.SslBridgeHandler - SSL event triggered, enable SSL handler to pipeline
+2024-12-29 23:51:41 DEBUG [reactor-tcp-nio-2] i.a.r.m.client.MessageDuplexCodec - Decode context change to DecodeContext-Command
+2024-12-29 23:51:41 INFO  [reactor-tcp-nio-2] i.a.r.m.client.ReactorNettyClient - Response: OkMessage{isEndOfRows=false, affectedRows=0, lastInsertId=0, serverStatuses=2, warnings=1, information='', systemVariables={}}, reports 1 warning(s)
+2024-12-29 23:51:41 DEBUG [reactor-tcp-nio-2] i.a.r.mysql.MySqlSimpleConnection - Create a simple statement provided by text query
+2024-12-29 23:51:41 DEBUG [reactor-tcp-nio-2] io.asyncer.r2dbc.mysql.QUERY - Executing statement [CREATE TABLE IF NOT EXISTS `testdb`.`producto` ( `id` BIGINT UNSIGNED NOT NULL AUTO_INCREMENT, `tipoproducto` VARCHAR(45) NULL, `nombre` VARCHAR(45) NULL, `saldo` DECIMAL(10,2) NULL, `codigocliente` BIGINT UNSIGNED NOT NULL, PRIMARY KEY (`id`), INDEX `clientecod_pk_idx` (`codigocliente` ASC) VISIBLE, CONSTRAINT `clientecod_pk` FOREIGN KEY (`codigocliente`) REFERENCES `testdb`.`clientes` (`codigounico`) ON DELETE NO ACTION ON UPDATE NO ACTION )]
+2024-12-29 23:51:41 DEBUG [reactor-tcp-nio-2] i.a.r.m.client.ReactorNettyClient - Request: TextQueryMessage{sql=REDACTED}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-2] i.a.r.m.client.MessageDuplexCodec - Decode context change to DecodeContext-Command
+2024-12-29 23:51:42 INFO  [reactor-tcp-nio-2] i.a.r.m.client.ReactorNettyClient - Response: OkMessage{isEndOfRows=false, affectedRows=0, lastInsertId=0, serverStatuses=2, warnings=1, information='', systemVariables={}}, reports 1 warning(s)
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-3] i.n.h.s.u.InsecureTrustManagerFactory - Accepting a server certificate: CN=MySQL_Server_8.0.36_Auto_Generated_Server_Certificate
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-2] io.r2dbc.pool.PooledConnection - Releasing connection
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-2] i.a.r.m.client.ReactorNettyClient - Request: PingMessage{}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-2] i.a.r.m.client.MessageDuplexCodec - Decode context change to DecodeContext-Command
+2024-12-29 23:51:42 INFO  [reactor-tcp-nio-2] i.a.r.m.client.ReactorNettyClient - Response: OkMessage{isEndOfRows=false, affectedRows=0, lastInsertId=0, serverStatuses=2, warnings=1, information='', systemVariables={}}, reports 1 warning(s)
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-3] io.netty.handler.ssl.SslHandler - [id: 0x51c5c59c, L:/127.0.0.1:51807 - R:localhost/127.0.0.1:3306] HANDSHAKEN: protocol:TLSv1.3 cipher suite:TLS_AES_128_GCM_SHA256
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-3] i.a.r.m.client.ReactorNettyClient - Response: SyntheticSslResponseMessage{}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-3] i.a.r.m.client.ReactorNettyClient - Request: HandshakeResponse41{capability=Capability<0x12faa0f>, collationId=45, user='root', authentication=REDACTED, authType='caching_sha2_password', database='testdb', attributes={}, zstdCompressionLevel=3}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-3] i.a.r.mysql.client.SslBridgeHandler - SSL handshake completed, remove SSL bridge in pipeline
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-3] i.a.r.m.client.ReactorNettyClient - Response: AuthMoreDataMessage{failed=false}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-3] i.a.r.m.client.MessageDuplexCodec - Decode context change to DecodeContext-Command
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-3] i.a.r.m.client.ReactorNettyClient - Response: OkMessage{isEndOfRows=false, affectedRows=0, lastInsertId=0, serverStatuses=2, information='', systemVariables={}}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-3] io.asyncer.r2dbc.mysql.InitFlow - Initializing client session: []
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-3] io.asyncer.r2dbc.mysql.QUERY - Executing statement [SELECT @@transaction_isolation AS i,@@version_comment AS v]
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-3] i.a.r.m.client.ReactorNettyClient - Request: TextQueryMessage{sql=REDACTED}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-3] i.a.r.m.client.MessageDuplexCodec - Decode context change to DecodeContext-Result
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-3] i.a.r.m.m.s.MetadataDecodeContext - Respond a metadata bundle by filled-up
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-3] i.a.r.m.client.ReactorNettyClient - Response: SyntheticMetadataMessage{completed=false, messages=[DefinitionMetadataMessage{database='', table='' (origin:''), column='i' (origin:''), collationId=45, size=87380, type=253, definitions=0, decimals=31}, DefinitionMetadataMessage{database='', table='' (origin:''), column='v' (origin:''), collationId=45, size=87380, type=253, definitions=0, decimals=31}], eof=null}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-3] i.a.r.m.client.ReactorNettyClient - Response: RowMessage(encoded)
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-3] i.a.r.m.client.MessageDuplexCodec - Decode context change to DecodeContext-Command
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-3] i.a.r.m.client.ReactorNettyClient - Response: OkMessage{isEndOfRows=true, affectedRows=0, lastInsertId=0, serverStatuses=2, information='', systemVariables={}}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-3] io.asyncer.r2dbc.mysql.QUERY - Executing statement [SHOW VARIABLES LIKE 'innodb_lock_wait_timeout']
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-3] i.a.r.m.client.ReactorNettyClient - Request: TextQueryMessage{sql=REDACTED}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-3] i.a.r.m.client.MessageDuplexCodec - Decode context change to DecodeContext-Result
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-3] i.a.r.m.m.s.MetadataDecodeContext - Respond a metadata bundle by filled-up
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-3] i.a.r.m.client.ReactorNettyClient - Response: SyntheticMetadataMessage{completed=false, messages=[DefinitionMetadataMessage{database='performance_schema', table='session_variables' (origin:'session_variables'), column='Variable_name' (origin:'Variable_name'), collationId=45, size=256, type=253, definitions=4097, decimals=0}, DefinitionMetadataMessage{database='performance_schema', table='session_variables' (origin:'session_variables'), column='Value' (origin:'Value'), collationId=45, size=4096, type=253, definitions=0, decimals=0}], eof=null}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-3] i.a.r.m.client.ReactorNettyClient - Response: RowMessage(encoded)
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-3] i.a.r.m.client.MessageDuplexCodec - Decode context change to DecodeContext-Command
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-3] i.a.r.m.client.ReactorNettyClient - Response: OkMessage{isEndOfRows=true, affectedRows=0, lastInsertId=0, serverStatuses=22, information='', systemVariables={}}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-3] io.asyncer.r2dbc.mysql.InitFlow - Initializing connection 371 context: SessionState{level=IsolationLevel{sql='REPEATABLE READ'}, product='MySQL Community Server - GPL', timeZone=null, lockWaitTimeout=PT50S, lockWaitTimeoutSupported=true}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-3] i.a.r.mysql.MySqlSimpleConnection - Batch is supported by server
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-3] reactor.pool.SimpleDequePool - warmed up extra resource 1/9
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-4] r.netty.transport.TransportConfig - [880bd372] Initialized pipeline DefaultChannelPipeline{(reactor.right.reactiveBridge = reactor.netty.channel.ChannelOperationsHandler)}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-4] i.n.r.dns.DnsNameResolverBuilder - resolveCache and TTLs are mutually exclusive. TTLs are ignored.
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-4] i.n.r.dns.DnsNameResolverBuilder - cnameCache and TTLs are mutually exclusive. TTLs are ignored.
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-4] i.n.r.dns.DnsNameResolverBuilder - authoritativeDnsServerCache and TTLs are mutually exclusive. TTLs are ignored.
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-4] r.netty.transport.TransportConnector - [880bd372] Connecting to [localhost/127.0.0.1:3306].
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-4] r.n.resources.NewConnectionProvider - [880bd372, L:/127.0.0.1:51808 - R:localhost/127.0.0.1:3306] Connected new channel
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-4] r.n.resources.NewConnectionProvider - [880bd372, L:/127.0.0.1:51808 - R:localhost/127.0.0.1:3306] onStateChange([connected], SimpleConnection{channel=[id: 0x880bd372, L:/127.0.0.1:51808 - R:localhost/127.0.0.1:3306]})
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-4] r.n.resources.NewConnectionProvider - [880bd372, L:/127.0.0.1:51808 - R:localhost/127.0.0.1:3306] onStateChange([configured], ChannelOperations{SimpleConnection{channel=[id: 0x880bd372, L:/127.0.0.1:51808 - R:localhost/127.0.0.1:3306]}})
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-4] reactor.netty.ReactorNetty - [880bd372, L:/127.0.0.1:51808 - R:localhost/127.0.0.1:3306] Added decoder [R2dbcMySqlMessageDuplexCodec] at the end of the user pipeline, full pipeline: [R2dbcMySqlMessageDuplexCodec, reactor.right.reactiveBridge, DefaultChannelPipeline$TailContext#0]
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-4] reactor.netty.ReactorNetty - [880bd372, L:/127.0.0.1:51808 - R:localhost/127.0.0.1:3306] Added encoder [R2dbcMySqlSslBridgeHandler] at the beginning of the user pipeline, full pipeline: [R2dbcMySqlSslBridgeHandler, R2dbcMySqlMessageDuplexCodec, reactor.right.reactiveBridge, DefaultChannelPipeline$TailContext#0]
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-4] reactor.netty.channel.FluxReceive - [880bd372, L:/127.0.0.1:51808 - R:localhost/127.0.0.1:3306] [terminated=false, cancelled=false, pending=0, error=null]: subscribing inbound receiver
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-4] i.a.r.m.client.ReactorNettyClient - Response: HandshakeV10Request{header=HandshakeHeader{protocolVersion=10, serverVersion=8.0.36, connectionId=372}, salt=REDACTED, serverCapability=Capability<0x5bfafbf>, serverStatuses=2, authType='caching_sha2_password'}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-4] i.a.r.m.client.ReactorNettyClient - Request: SslRequest41{capability=Capability<0x12faa0f>, collationId=45}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-4] i.a.r.mysql.client.SslBridgeHandler - SSL event triggered, enable SSL handler to pipeline
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-4] i.n.h.s.u.InsecureTrustManagerFactory - Accepting a server certificate: CN=MySQL_Server_8.0.36_Auto_Generated_Server_Certificate
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-4] io.netty.handler.ssl.SslHandler - [id: 0x880bd372, L:/127.0.0.1:51808 - R:localhost/127.0.0.1:3306] HANDSHAKEN: protocol:TLSv1.3 cipher suite:TLS_AES_128_GCM_SHA256
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-4] i.a.r.m.client.ReactorNettyClient - Response: SyntheticSslResponseMessage{}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-4] i.a.r.m.client.ReactorNettyClient - Request: HandshakeResponse41{capability=Capability<0x12faa0f>, collationId=45, user='root', authentication=REDACTED, authType='caching_sha2_password', database='testdb', attributes={}, zstdCompressionLevel=3}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-4] i.a.r.mysql.client.SslBridgeHandler - SSL handshake completed, remove SSL bridge in pipeline
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-4] i.a.r.m.client.ReactorNettyClient - Response: AuthMoreDataMessage{failed=false}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-4] i.a.r.m.client.MessageDuplexCodec - Decode context change to DecodeContext-Command
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-4] i.a.r.m.client.ReactorNettyClient - Response: OkMessage{isEndOfRows=false, affectedRows=0, lastInsertId=0, serverStatuses=2, information='', systemVariables={}}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-4] io.asyncer.r2dbc.mysql.InitFlow - Initializing client session: []
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-4] io.asyncer.r2dbc.mysql.QUERY - Executing statement [SELECT @@transaction_isolation AS i,@@version_comment AS v]
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-4] i.a.r.m.client.ReactorNettyClient - Request: TextQueryMessage{sql=REDACTED}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-4] i.a.r.m.client.MessageDuplexCodec - Decode context change to DecodeContext-Result
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-4] i.a.r.m.m.s.MetadataDecodeContext - Respond a metadata bundle by filled-up
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-4] i.a.r.m.client.ReactorNettyClient - Response: SyntheticMetadataMessage{completed=false, messages=[DefinitionMetadataMessage{database='', table='' (origin:''), column='i' (origin:''), collationId=45, size=87380, type=253, definitions=0, decimals=31}, DefinitionMetadataMessage{database='', table='' (origin:''), column='v' (origin:''), collationId=45, size=87380, type=253, definitions=0, decimals=31}], eof=null}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-4] i.a.r.m.client.ReactorNettyClient - Response: RowMessage(encoded)
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-4] i.a.r.m.client.MessageDuplexCodec - Decode context change to DecodeContext-Command
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-4] i.a.r.m.client.ReactorNettyClient - Response: OkMessage{isEndOfRows=true, affectedRows=0, lastInsertId=0, serverStatuses=2, information='', systemVariables={}}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-4] io.asyncer.r2dbc.mysql.QUERY - Executing statement [SHOW VARIABLES LIKE 'innodb_lock_wait_timeout']
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-4] i.a.r.m.client.ReactorNettyClient - Request: TextQueryMessage{sql=REDACTED}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-4] i.a.r.m.client.MessageDuplexCodec - Decode context change to DecodeContext-Result
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-4] i.a.r.m.m.s.MetadataDecodeContext - Respond a metadata bundle by filled-up
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-4] i.a.r.m.client.ReactorNettyClient - Response: SyntheticMetadataMessage{completed=false, messages=[DefinitionMetadataMessage{database='performance_schema', table='session_variables' (origin:'session_variables'), column='Variable_name' (origin:'Variable_name'), collationId=45, size=256, type=253, definitions=4097, decimals=0}, DefinitionMetadataMessage{database='performance_schema', table='session_variables' (origin:'session_variables'), column='Value' (origin:'Value'), collationId=45, size=4096, type=253, definitions=0, decimals=0}], eof=null}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-4] i.a.r.m.client.ReactorNettyClient - Response: RowMessage(encoded)
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-4] i.a.r.m.client.MessageDuplexCodec - Decode context change to DecodeContext-Command
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-4] i.a.r.m.client.ReactorNettyClient - Response: OkMessage{isEndOfRows=true, affectedRows=0, lastInsertId=0, serverStatuses=22, information='', systemVariables={}}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-4] io.asyncer.r2dbc.mysql.InitFlow - Initializing connection 372 context: SessionState{level=IsolationLevel{sql='REPEATABLE READ'}, product='MySQL Community Server - GPL', timeZone=null, lockWaitTimeout=PT50S, lockWaitTimeoutSupported=true}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-4] i.a.r.mysql.MySqlSimpleConnection - Batch is supported by server
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-4] reactor.pool.SimpleDequePool - warmed up extra resource 2/9
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-5] r.netty.transport.TransportConfig - [b670f437] Initialized pipeline DefaultChannelPipeline{(reactor.right.reactiveBridge = reactor.netty.channel.ChannelOperationsHandler)}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-5] i.n.r.dns.DnsNameResolverBuilder - resolveCache and TTLs are mutually exclusive. TTLs are ignored.
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-5] i.n.r.dns.DnsNameResolverBuilder - cnameCache and TTLs are mutually exclusive. TTLs are ignored.
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-5] i.n.r.dns.DnsNameResolverBuilder - authoritativeDnsServerCache and TTLs are mutually exclusive. TTLs are ignored.
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-5] r.netty.transport.TransportConnector - [b670f437] Connecting to [localhost/127.0.0.1:3306].
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-5] r.n.resources.NewConnectionProvider - [b670f437, L:/127.0.0.1:51809 - R:localhost/127.0.0.1:3306] Connected new channel
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-5] r.n.resources.NewConnectionProvider - [b670f437, L:/127.0.0.1:51809 - R:localhost/127.0.0.1:3306] onStateChange([connected], SimpleConnection{channel=[id: 0xb670f437, L:/127.0.0.1:51809 - R:localhost/127.0.0.1:3306]})
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-5] r.n.resources.NewConnectionProvider - [b670f437, L:/127.0.0.1:51809 - R:localhost/127.0.0.1:3306] onStateChange([configured], ChannelOperations{SimpleConnection{channel=[id: 0xb670f437, L:/127.0.0.1:51809 - R:localhost/127.0.0.1:3306]}})
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-5] reactor.netty.ReactorNetty - [b670f437, L:/127.0.0.1:51809 - R:localhost/127.0.0.1:3306] Added decoder [R2dbcMySqlMessageDuplexCodec] at the end of the user pipeline, full pipeline: [R2dbcMySqlMessageDuplexCodec, reactor.right.reactiveBridge, DefaultChannelPipeline$TailContext#0]
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-5] reactor.netty.ReactorNetty - [b670f437, L:/127.0.0.1:51809 - R:localhost/127.0.0.1:3306] Added encoder [R2dbcMySqlSslBridgeHandler] at the beginning of the user pipeline, full pipeline: [R2dbcMySqlSslBridgeHandler, R2dbcMySqlMessageDuplexCodec, reactor.right.reactiveBridge, DefaultChannelPipeline$TailContext#0]
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-5] reactor.netty.channel.FluxReceive - [b670f437, L:/127.0.0.1:51809 - R:localhost/127.0.0.1:3306] [terminated=false, cancelled=false, pending=0, error=null]: subscribing inbound receiver
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-5] i.a.r.m.client.ReactorNettyClient - Response: HandshakeV10Request{header=HandshakeHeader{protocolVersion=10, serverVersion=8.0.36, connectionId=373}, salt=REDACTED, serverCapability=Capability<0x5bfafbf>, serverStatuses=2, authType='caching_sha2_password'}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-5] i.a.r.m.client.ReactorNettyClient - Request: SslRequest41{capability=Capability<0x12faa0f>, collationId=45}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-5] i.a.r.mysql.client.SslBridgeHandler - SSL event triggered, enable SSL handler to pipeline
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-5] i.n.h.s.u.InsecureTrustManagerFactory - Accepting a server certificate: CN=MySQL_Server_8.0.36_Auto_Generated_Server_Certificate
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-5] io.netty.handler.ssl.SslHandler - [id: 0xb670f437, L:/127.0.0.1:51809 - R:localhost/127.0.0.1:3306] HANDSHAKEN: protocol:TLSv1.3 cipher suite:TLS_AES_128_GCM_SHA256
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-5] i.a.r.m.client.ReactorNettyClient - Response: SyntheticSslResponseMessage{}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-5] i.a.r.m.client.ReactorNettyClient - Request: HandshakeResponse41{capability=Capability<0x12faa0f>, collationId=45, user='root', authentication=REDACTED, authType='caching_sha2_password', database='testdb', attributes={}, zstdCompressionLevel=3}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-5] i.a.r.mysql.client.SslBridgeHandler - SSL handshake completed, remove SSL bridge in pipeline
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-5] i.a.r.m.client.ReactorNettyClient - Response: AuthMoreDataMessage{failed=false}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-5] i.a.r.m.client.MessageDuplexCodec - Decode context change to DecodeContext-Command
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-5] i.a.r.m.client.ReactorNettyClient - Response: OkMessage{isEndOfRows=false, affectedRows=0, lastInsertId=0, serverStatuses=2, information='', systemVariables={}}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-5] io.asyncer.r2dbc.mysql.InitFlow - Initializing client session: []
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-5] io.asyncer.r2dbc.mysql.QUERY - Executing statement [SELECT @@transaction_isolation AS i,@@version_comment AS v]
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-5] i.a.r.m.client.ReactorNettyClient - Request: TextQueryMessage{sql=REDACTED}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-5] i.a.r.m.client.MessageDuplexCodec - Decode context change to DecodeContext-Result
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-5] i.a.r.m.m.s.MetadataDecodeContext - Respond a metadata bundle by filled-up
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-5] i.a.r.m.client.ReactorNettyClient - Response: SyntheticMetadataMessage{completed=false, messages=[DefinitionMetadataMessage{database='', table='' (origin:''), column='i' (origin:''), collationId=45, size=87380, type=253, definitions=0, decimals=31}, DefinitionMetadataMessage{database='', table='' (origin:''), column='v' (origin:''), collationId=45, size=87380, type=253, definitions=0, decimals=31}], eof=null}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-5] i.a.r.m.client.ReactorNettyClient - Response: RowMessage(encoded)
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-5] i.a.r.m.client.MessageDuplexCodec - Decode context change to DecodeContext-Command
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-5] i.a.r.m.client.ReactorNettyClient - Response: OkMessage{isEndOfRows=true, affectedRows=0, lastInsertId=0, serverStatuses=2, information='', systemVariables={}}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-5] io.asyncer.r2dbc.mysql.QUERY - Executing statement [SHOW VARIABLES LIKE 'innodb_lock_wait_timeout']
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-5] i.a.r.m.client.ReactorNettyClient - Request: TextQueryMessage{sql=REDACTED}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-5] i.a.r.m.client.MessageDuplexCodec - Decode context change to DecodeContext-Result
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-5] i.a.r.m.m.s.MetadataDecodeContext - Respond a metadata bundle by filled-up
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-5] i.a.r.m.client.ReactorNettyClient - Response: SyntheticMetadataMessage{completed=false, messages=[DefinitionMetadataMessage{database='performance_schema', table='session_variables' (origin:'session_variables'), column='Variable_name' (origin:'Variable_name'), collationId=45, size=256, type=253, definitions=4097, decimals=0}, DefinitionMetadataMessage{database='performance_schema', table='session_variables' (origin:'session_variables'), column='Value' (origin:'Value'), collationId=45, size=4096, type=253, definitions=0, decimals=0}], eof=null}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-5] i.a.r.m.client.ReactorNettyClient - Response: RowMessage(encoded)
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-5] i.a.r.m.client.MessageDuplexCodec - Decode context change to DecodeContext-Command
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-5] i.a.r.m.client.ReactorNettyClient - Response: OkMessage{isEndOfRows=true, affectedRows=0, lastInsertId=0, serverStatuses=22, information='', systemVariables={}}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-5] io.asyncer.r2dbc.mysql.InitFlow - Initializing connection 373 context: SessionState{level=IsolationLevel{sql='REPEATABLE READ'}, product='MySQL Community Server - GPL', timeZone=null, lockWaitTimeout=PT50S, lockWaitTimeoutSupported=true}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-5] i.a.r.mysql.MySqlSimpleConnection - Batch is supported by server
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-5] reactor.pool.SimpleDequePool - warmed up extra resource 3/9
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-6] r.netty.transport.TransportConfig - [071a921b] Initialized pipeline DefaultChannelPipeline{(reactor.right.reactiveBridge = reactor.netty.channel.ChannelOperationsHandler)}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-6] i.n.r.dns.DnsNameResolverBuilder - resolveCache and TTLs are mutually exclusive. TTLs are ignored.
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-6] i.n.r.dns.DnsNameResolverBuilder - cnameCache and TTLs are mutually exclusive. TTLs are ignored.
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-6] i.n.r.dns.DnsNameResolverBuilder - authoritativeDnsServerCache and TTLs are mutually exclusive. TTLs are ignored.
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-6] r.netty.transport.TransportConnector - [071a921b] Connecting to [localhost/127.0.0.1:3306].
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-6] r.n.resources.NewConnectionProvider - [071a921b, L:/127.0.0.1:51810 - R:localhost/127.0.0.1:3306] Connected new channel
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-6] r.n.resources.NewConnectionProvider - [071a921b, L:/127.0.0.1:51810 - R:localhost/127.0.0.1:3306] onStateChange([connected], SimpleConnection{channel=[id: 0x071a921b, L:/127.0.0.1:51810 - R:localhost/127.0.0.1:3306]})
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-6] r.n.resources.NewConnectionProvider - [071a921b, L:/127.0.0.1:51810 - R:localhost/127.0.0.1:3306] onStateChange([configured], ChannelOperations{SimpleConnection{channel=[id: 0x071a921b, L:/127.0.0.1:51810 - R:localhost/127.0.0.1:3306]}})
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-6] reactor.netty.ReactorNetty - [071a921b, L:/127.0.0.1:51810 - R:localhost/127.0.0.1:3306] Added decoder [R2dbcMySqlMessageDuplexCodec] at the end of the user pipeline, full pipeline: [R2dbcMySqlMessageDuplexCodec, reactor.right.reactiveBridge, DefaultChannelPipeline$TailContext#0]
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-6] reactor.netty.ReactorNetty - [071a921b, L:/127.0.0.1:51810 - R:localhost/127.0.0.1:3306] Added encoder [R2dbcMySqlSslBridgeHandler] at the beginning of the user pipeline, full pipeline: [R2dbcMySqlSslBridgeHandler, R2dbcMySqlMessageDuplexCodec, reactor.right.reactiveBridge, DefaultChannelPipeline$TailContext#0]
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-6] reactor.netty.channel.FluxReceive - [071a921b, L:/127.0.0.1:51810 - R:localhost/127.0.0.1:3306] [terminated=false, cancelled=false, pending=0, error=null]: subscribing inbound receiver
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-6] i.a.r.m.client.ReactorNettyClient - Response: HandshakeV10Request{header=HandshakeHeader{protocolVersion=10, serverVersion=8.0.36, connectionId=374}, salt=REDACTED, serverCapability=Capability<0x5bfafbf>, serverStatuses=2, authType='caching_sha2_password'}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-6] i.a.r.m.client.ReactorNettyClient - Request: SslRequest41{capability=Capability<0x12faa0f>, collationId=45}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-6] i.a.r.mysql.client.SslBridgeHandler - SSL event triggered, enable SSL handler to pipeline
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-6] i.n.h.s.u.InsecureTrustManagerFactory - Accepting a server certificate: CN=MySQL_Server_8.0.36_Auto_Generated_Server_Certificate
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-6] io.netty.handler.ssl.SslHandler - [id: 0x071a921b, L:/127.0.0.1:51810 - R:localhost/127.0.0.1:3306] HANDSHAKEN: protocol:TLSv1.3 cipher suite:TLS_AES_128_GCM_SHA256
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-6] i.a.r.m.client.ReactorNettyClient - Response: SyntheticSslResponseMessage{}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-6] i.a.r.m.client.ReactorNettyClient - Request: HandshakeResponse41{capability=Capability<0x12faa0f>, collationId=45, user='root', authentication=REDACTED, authType='caching_sha2_password', database='testdb', attributes={}, zstdCompressionLevel=3}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-6] i.a.r.mysql.client.SslBridgeHandler - SSL handshake completed, remove SSL bridge in pipeline
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-6] i.a.r.m.client.ReactorNettyClient - Response: AuthMoreDataMessage{failed=false}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-6] i.a.r.m.client.MessageDuplexCodec - Decode context change to DecodeContext-Command
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-6] i.a.r.m.client.ReactorNettyClient - Response: OkMessage{isEndOfRows=false, affectedRows=0, lastInsertId=0, serverStatuses=2, information='', systemVariables={}}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-6] io.asyncer.r2dbc.mysql.InitFlow - Initializing client session: []
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-6] io.asyncer.r2dbc.mysql.QUERY - Executing statement [SELECT @@transaction_isolation AS i,@@version_comment AS v]
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-6] i.a.r.m.client.ReactorNettyClient - Request: TextQueryMessage{sql=REDACTED}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-6] i.a.r.m.client.MessageDuplexCodec - Decode context change to DecodeContext-Result
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-6] i.a.r.m.m.s.MetadataDecodeContext - Respond a metadata bundle by filled-up
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-6] i.a.r.m.client.ReactorNettyClient - Response: SyntheticMetadataMessage{completed=false, messages=[DefinitionMetadataMessage{database='', table='' (origin:''), column='i' (origin:''), collationId=45, size=87380, type=253, definitions=0, decimals=31}, DefinitionMetadataMessage{database='', table='' (origin:''), column='v' (origin:''), collationId=45, size=87380, type=253, definitions=0, decimals=31}], eof=null}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-6] i.a.r.m.client.ReactorNettyClient - Response: RowMessage(encoded)
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-6] i.a.r.m.client.MessageDuplexCodec - Decode context change to DecodeContext-Command
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-6] i.a.r.m.client.ReactorNettyClient - Response: OkMessage{isEndOfRows=true, affectedRows=0, lastInsertId=0, serverStatuses=2, information='', systemVariables={}}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-6] io.asyncer.r2dbc.mysql.QUERY - Executing statement [SHOW VARIABLES LIKE 'innodb_lock_wait_timeout']
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-6] i.a.r.m.client.ReactorNettyClient - Request: TextQueryMessage{sql=REDACTED}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-6] i.a.r.m.client.MessageDuplexCodec - Decode context change to DecodeContext-Result
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-6] i.a.r.m.m.s.MetadataDecodeContext - Respond a metadata bundle by filled-up
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-6] i.a.r.m.client.ReactorNettyClient - Response: SyntheticMetadataMessage{completed=false, messages=[DefinitionMetadataMessage{database='performance_schema', table='session_variables' (origin:'session_variables'), column='Variable_name' (origin:'Variable_name'), collationId=45, size=256, type=253, definitions=4097, decimals=0}, DefinitionMetadataMessage{database='performance_schema', table='session_variables' (origin:'session_variables'), column='Value' (origin:'Value'), collationId=45, size=4096, type=253, definitions=0, decimals=0}], eof=null}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-6] i.a.r.m.client.ReactorNettyClient - Response: RowMessage(encoded)
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-6] i.a.r.m.client.MessageDuplexCodec - Decode context change to DecodeContext-Command
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-6] i.a.r.m.client.ReactorNettyClient - Response: OkMessage{isEndOfRows=true, affectedRows=0, lastInsertId=0, serverStatuses=22, information='', systemVariables={}}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-6] io.asyncer.r2dbc.mysql.InitFlow - Initializing connection 374 context: SessionState{level=IsolationLevel{sql='REPEATABLE READ'}, product='MySQL Community Server - GPL', timeZone=null, lockWaitTimeout=PT50S, lockWaitTimeoutSupported=true}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-6] i.a.r.mysql.MySqlSimpleConnection - Batch is supported by server
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-6] reactor.pool.SimpleDequePool - warmed up extra resource 4/9
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-7] r.netty.transport.TransportConfig - [319e724c] Initialized pipeline DefaultChannelPipeline{(reactor.right.reactiveBridge = reactor.netty.channel.ChannelOperationsHandler)}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-7] i.n.r.dns.DnsNameResolverBuilder - resolveCache and TTLs are mutually exclusive. TTLs are ignored.
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-7] i.n.r.dns.DnsNameResolverBuilder - cnameCache and TTLs are mutually exclusive. TTLs are ignored.
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-7] i.n.r.dns.DnsNameResolverBuilder - authoritativeDnsServerCache and TTLs are mutually exclusive. TTLs are ignored.
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-7] r.netty.transport.TransportConnector - [319e724c] Connecting to [localhost/127.0.0.1:3306].
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-7] r.n.resources.NewConnectionProvider - [319e724c, L:/127.0.0.1:51811 - R:localhost/127.0.0.1:3306] Connected new channel
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-7] r.n.resources.NewConnectionProvider - [319e724c, L:/127.0.0.1:51811 - R:localhost/127.0.0.1:3306] onStateChange([connected], SimpleConnection{channel=[id: 0x319e724c, L:/127.0.0.1:51811 - R:localhost/127.0.0.1:3306]})
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-7] r.n.resources.NewConnectionProvider - [319e724c, L:/127.0.0.1:51811 - R:localhost/127.0.0.1:3306] onStateChange([configured], ChannelOperations{SimpleConnection{channel=[id: 0x319e724c, L:/127.0.0.1:51811 - R:localhost/127.0.0.1:3306]}})
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-7] reactor.netty.ReactorNetty - [319e724c, L:/127.0.0.1:51811 - R:localhost/127.0.0.1:3306] Added decoder [R2dbcMySqlMessageDuplexCodec] at the end of the user pipeline, full pipeline: [R2dbcMySqlMessageDuplexCodec, reactor.right.reactiveBridge, DefaultChannelPipeline$TailContext#0]
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-7] reactor.netty.ReactorNetty - [319e724c, L:/127.0.0.1:51811 - R:localhost/127.0.0.1:3306] Added encoder [R2dbcMySqlSslBridgeHandler] at the beginning of the user pipeline, full pipeline: [R2dbcMySqlSslBridgeHandler, R2dbcMySqlMessageDuplexCodec, reactor.right.reactiveBridge, DefaultChannelPipeline$TailContext#0]
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-7] reactor.netty.channel.FluxReceive - [319e724c, L:/127.0.0.1:51811 - R:localhost/127.0.0.1:3306] [terminated=false, cancelled=false, pending=0, error=null]: subscribing inbound receiver
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-7] i.a.r.m.client.ReactorNettyClient - Response: HandshakeV10Request{header=HandshakeHeader{protocolVersion=10, serverVersion=8.0.36, connectionId=375}, salt=REDACTED, serverCapability=Capability<0x5bfafbf>, serverStatuses=2, authType='caching_sha2_password'}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-7] i.a.r.m.client.ReactorNettyClient - Request: SslRequest41{capability=Capability<0x12faa0f>, collationId=45}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-7] i.a.r.mysql.client.SslBridgeHandler - SSL event triggered, enable SSL handler to pipeline
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-7] i.n.h.s.u.InsecureTrustManagerFactory - Accepting a server certificate: CN=MySQL_Server_8.0.36_Auto_Generated_Server_Certificate
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-7] io.netty.handler.ssl.SslHandler - [id: 0x319e724c, L:/127.0.0.1:51811 - R:localhost/127.0.0.1:3306] HANDSHAKEN: protocol:TLSv1.3 cipher suite:TLS_AES_128_GCM_SHA256
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-7] i.a.r.m.client.ReactorNettyClient - Response: SyntheticSslResponseMessage{}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-7] i.a.r.m.client.ReactorNettyClient - Request: HandshakeResponse41{capability=Capability<0x12faa0f>, collationId=45, user='root', authentication=REDACTED, authType='caching_sha2_password', database='testdb', attributes={}, zstdCompressionLevel=3}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-7] i.a.r.mysql.client.SslBridgeHandler - SSL handshake completed, remove SSL bridge in pipeline
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-7] i.a.r.m.client.ReactorNettyClient - Response: AuthMoreDataMessage{failed=false}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-7] i.a.r.m.client.MessageDuplexCodec - Decode context change to DecodeContext-Command
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-7] i.a.r.m.client.ReactorNettyClient - Response: OkMessage{isEndOfRows=false, affectedRows=0, lastInsertId=0, serverStatuses=2, information='', systemVariables={}}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-7] io.asyncer.r2dbc.mysql.InitFlow - Initializing client session: []
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-7] io.asyncer.r2dbc.mysql.QUERY - Executing statement [SELECT @@transaction_isolation AS i,@@version_comment AS v]
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-7] i.a.r.m.client.ReactorNettyClient - Request: TextQueryMessage{sql=REDACTED}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-7] i.a.r.m.client.MessageDuplexCodec - Decode context change to DecodeContext-Result
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-7] i.a.r.m.m.s.MetadataDecodeContext - Respond a metadata bundle by filled-up
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-7] i.a.r.m.client.ReactorNettyClient - Response: SyntheticMetadataMessage{completed=false, messages=[DefinitionMetadataMessage{database='', table='' (origin:''), column='i' (origin:''), collationId=45, size=87380, type=253, definitions=0, decimals=31}, DefinitionMetadataMessage{database='', table='' (origin:''), column='v' (origin:''), collationId=45, size=87380, type=253, definitions=0, decimals=31}], eof=null}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-7] i.a.r.m.client.ReactorNettyClient - Response: RowMessage(encoded)
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-7] i.a.r.m.client.MessageDuplexCodec - Decode context change to DecodeContext-Command
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-7] i.a.r.m.client.ReactorNettyClient - Response: OkMessage{isEndOfRows=true, affectedRows=0, lastInsertId=0, serverStatuses=2, information='', systemVariables={}}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-7] io.asyncer.r2dbc.mysql.QUERY - Executing statement [SHOW VARIABLES LIKE 'innodb_lock_wait_timeout']
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-7] i.a.r.m.client.ReactorNettyClient - Request: TextQueryMessage{sql=REDACTED}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-7] i.a.r.m.client.MessageDuplexCodec - Decode context change to DecodeContext-Result
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-7] i.a.r.m.m.s.MetadataDecodeContext - Respond a metadata bundle by filled-up
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-7] i.a.r.m.client.ReactorNettyClient - Response: SyntheticMetadataMessage{completed=false, messages=[DefinitionMetadataMessage{database='performance_schema', table='session_variables' (origin:'session_variables'), column='Variable_name' (origin:'Variable_name'), collationId=45, size=256, type=253, definitions=4097, decimals=0}, DefinitionMetadataMessage{database='performance_schema', table='session_variables' (origin:'session_variables'), column='Value' (origin:'Value'), collationId=45, size=4096, type=253, definitions=0, decimals=0}], eof=null}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-7] i.a.r.m.client.ReactorNettyClient - Response: RowMessage(encoded)
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-7] i.a.r.m.client.MessageDuplexCodec - Decode context change to DecodeContext-Command
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-7] i.a.r.m.client.ReactorNettyClient - Response: OkMessage{isEndOfRows=true, affectedRows=0, lastInsertId=0, serverStatuses=22, information='', systemVariables={}}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-7] io.asyncer.r2dbc.mysql.InitFlow - Initializing connection 375 context: SessionState{level=IsolationLevel{sql='REPEATABLE READ'}, product='MySQL Community Server - GPL', timeZone=null, lockWaitTimeout=PT50S, lockWaitTimeoutSupported=true}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-7] i.a.r.mysql.MySqlSimpleConnection - Batch is supported by server
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-7] reactor.pool.SimpleDequePool - warmed up extra resource 5/9
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-8] r.netty.transport.TransportConfig - [d76a686e] Initialized pipeline DefaultChannelPipeline{(reactor.right.reactiveBridge = reactor.netty.channel.ChannelOperationsHandler)}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-8] i.n.r.dns.DnsNameResolverBuilder - resolveCache and TTLs are mutually exclusive. TTLs are ignored.
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-8] i.n.r.dns.DnsNameResolverBuilder - cnameCache and TTLs are mutually exclusive. TTLs are ignored.
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-8] i.n.r.dns.DnsNameResolverBuilder - authoritativeDnsServerCache and TTLs are mutually exclusive. TTLs are ignored.
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-8] r.netty.transport.TransportConnector - [d76a686e] Connecting to [localhost/127.0.0.1:3306].
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-8] r.n.resources.NewConnectionProvider - [d76a686e, L:/127.0.0.1:51812 - R:localhost/127.0.0.1:3306] Connected new channel
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-8] r.n.resources.NewConnectionProvider - [d76a686e, L:/127.0.0.1:51812 - R:localhost/127.0.0.1:3306] onStateChange([connected], SimpleConnection{channel=[id: 0xd76a686e, L:/127.0.0.1:51812 - R:localhost/127.0.0.1:3306]})
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-8] r.n.resources.NewConnectionProvider - [d76a686e, L:/127.0.0.1:51812 - R:localhost/127.0.0.1:3306] onStateChange([configured], ChannelOperations{SimpleConnection{channel=[id: 0xd76a686e, L:/127.0.0.1:51812 - R:localhost/127.0.0.1:3306]}})
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-8] reactor.netty.ReactorNetty - [d76a686e, L:/127.0.0.1:51812 - R:localhost/127.0.0.1:3306] Added decoder [R2dbcMySqlMessageDuplexCodec] at the end of the user pipeline, full pipeline: [R2dbcMySqlMessageDuplexCodec, reactor.right.reactiveBridge, DefaultChannelPipeline$TailContext#0]
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-8] reactor.netty.ReactorNetty - [d76a686e, L:/127.0.0.1:51812 - R:localhost/127.0.0.1:3306] Added encoder [R2dbcMySqlSslBridgeHandler] at the beginning of the user pipeline, full pipeline: [R2dbcMySqlSslBridgeHandler, R2dbcMySqlMessageDuplexCodec, reactor.right.reactiveBridge, DefaultChannelPipeline$TailContext#0]
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-8] reactor.netty.channel.FluxReceive - [d76a686e, L:/127.0.0.1:51812 - R:localhost/127.0.0.1:3306] [terminated=false, cancelled=false, pending=0, error=null]: subscribing inbound receiver
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-8] i.a.r.m.client.ReactorNettyClient - Response: HandshakeV10Request{header=HandshakeHeader{protocolVersion=10, serverVersion=8.0.36, connectionId=376}, salt=REDACTED, serverCapability=Capability<0x5bfafbf>, serverStatuses=2, authType='caching_sha2_password'}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-8] i.a.r.m.client.ReactorNettyClient - Request: SslRequest41{capability=Capability<0x12faa0f>, collationId=45}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-8] i.a.r.mysql.client.SslBridgeHandler - SSL event triggered, enable SSL handler to pipeline
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-8] i.n.h.s.u.InsecureTrustManagerFactory - Accepting a server certificate: CN=MySQL_Server_8.0.36_Auto_Generated_Server_Certificate
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-8] io.netty.handler.ssl.SslHandler - [id: 0xd76a686e, L:/127.0.0.1:51812 - R:localhost/127.0.0.1:3306] HANDSHAKEN: protocol:TLSv1.3 cipher suite:TLS_AES_128_GCM_SHA256
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-8] i.a.r.m.client.ReactorNettyClient - Response: SyntheticSslResponseMessage{}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-8] i.a.r.m.client.ReactorNettyClient - Request: HandshakeResponse41{capability=Capability<0x12faa0f>, collationId=45, user='root', authentication=REDACTED, authType='caching_sha2_password', database='testdb', attributes={}, zstdCompressionLevel=3}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-8] i.a.r.mysql.client.SslBridgeHandler - SSL handshake completed, remove SSL bridge in pipeline
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-8] i.a.r.m.client.ReactorNettyClient - Response: AuthMoreDataMessage{failed=false}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-8] i.a.r.m.client.MessageDuplexCodec - Decode context change to DecodeContext-Command
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-8] i.a.r.m.client.ReactorNettyClient - Response: OkMessage{isEndOfRows=false, affectedRows=0, lastInsertId=0, serverStatuses=2, information='', systemVariables={}}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-8] io.asyncer.r2dbc.mysql.InitFlow - Initializing client session: []
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-8] io.asyncer.r2dbc.mysql.QUERY - Executing statement [SELECT @@transaction_isolation AS i,@@version_comment AS v]
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-8] i.a.r.m.client.ReactorNettyClient - Request: TextQueryMessage{sql=REDACTED}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-8] i.a.r.m.client.MessageDuplexCodec - Decode context change to DecodeContext-Result
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-8] i.a.r.m.m.s.MetadataDecodeContext - Respond a metadata bundle by filled-up
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-8] i.a.r.m.client.ReactorNettyClient - Response: SyntheticMetadataMessage{completed=false, messages=[DefinitionMetadataMessage{database='', table='' (origin:''), column='i' (origin:''), collationId=45, size=87380, type=253, definitions=0, decimals=31}, DefinitionMetadataMessage{database='', table='' (origin:''), column='v' (origin:''), collationId=45, size=87380, type=253, definitions=0, decimals=31}], eof=null}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-8] i.a.r.m.client.ReactorNettyClient - Response: RowMessage(encoded)
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-8] i.a.r.m.client.MessageDuplexCodec - Decode context change to DecodeContext-Command
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-8] i.a.r.m.client.ReactorNettyClient - Response: OkMessage{isEndOfRows=true, affectedRows=0, lastInsertId=0, serverStatuses=2, information='', systemVariables={}}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-8] io.asyncer.r2dbc.mysql.QUERY - Executing statement [SHOW VARIABLES LIKE 'innodb_lock_wait_timeout']
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-8] i.a.r.m.client.ReactorNettyClient - Request: TextQueryMessage{sql=REDACTED}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-8] i.a.r.m.client.MessageDuplexCodec - Decode context change to DecodeContext-Result
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-8] i.a.r.m.m.s.MetadataDecodeContext - Respond a metadata bundle by filled-up
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-8] i.a.r.m.client.ReactorNettyClient - Response: SyntheticMetadataMessage{completed=false, messages=[DefinitionMetadataMessage{database='performance_schema', table='session_variables' (origin:'session_variables'), column='Variable_name' (origin:'Variable_name'), collationId=45, size=256, type=253, definitions=4097, decimals=0}, DefinitionMetadataMessage{database='performance_schema', table='session_variables' (origin:'session_variables'), column='Value' (origin:'Value'), collationId=45, size=4096, type=253, definitions=0, decimals=0}], eof=null}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-8] i.a.r.m.client.ReactorNettyClient - Response: RowMessage(encoded)
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-8] i.a.r.m.client.MessageDuplexCodec - Decode context change to DecodeContext-Command
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-8] i.a.r.m.client.ReactorNettyClient - Response: OkMessage{isEndOfRows=true, affectedRows=0, lastInsertId=0, serverStatuses=22, information='', systemVariables={}}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-8] io.asyncer.r2dbc.mysql.InitFlow - Initializing connection 376 context: SessionState{level=IsolationLevel{sql='REPEATABLE READ'}, product='MySQL Community Server - GPL', timeZone=null, lockWaitTimeout=PT50S, lockWaitTimeoutSupported=true}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-8] i.a.r.mysql.MySqlSimpleConnection - Batch is supported by server
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-8] reactor.pool.SimpleDequePool - warmed up extra resource 6/9
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-9] r.netty.transport.TransportConfig - [9c260470] Initialized pipeline DefaultChannelPipeline{(reactor.right.reactiveBridge = reactor.netty.channel.ChannelOperationsHandler)}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-9] i.n.r.dns.DnsNameResolverBuilder - resolveCache and TTLs are mutually exclusive. TTLs are ignored.
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-9] i.n.r.dns.DnsNameResolverBuilder - cnameCache and TTLs are mutually exclusive. TTLs are ignored.
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-9] i.n.r.dns.DnsNameResolverBuilder - authoritativeDnsServerCache and TTLs are mutually exclusive. TTLs are ignored.
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-9] r.netty.transport.TransportConnector - [9c260470] Connecting to [localhost/127.0.0.1:3306].
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-9] r.n.resources.NewConnectionProvider - [9c260470, L:/127.0.0.1:51813 - R:localhost/127.0.0.1:3306] Connected new channel
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-9] r.n.resources.NewConnectionProvider - [9c260470, L:/127.0.0.1:51813 - R:localhost/127.0.0.1:3306] onStateChange([connected], SimpleConnection{channel=[id: 0x9c260470, L:/127.0.0.1:51813 - R:localhost/127.0.0.1:3306]})
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-9] r.n.resources.NewConnectionProvider - [9c260470, L:/127.0.0.1:51813 - R:localhost/127.0.0.1:3306] onStateChange([configured], ChannelOperations{SimpleConnection{channel=[id: 0x9c260470, L:/127.0.0.1:51813 - R:localhost/127.0.0.1:3306]}})
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-9] reactor.netty.ReactorNetty - [9c260470, L:/127.0.0.1:51813 - R:localhost/127.0.0.1:3306] Added decoder [R2dbcMySqlMessageDuplexCodec] at the end of the user pipeline, full pipeline: [R2dbcMySqlMessageDuplexCodec, reactor.right.reactiveBridge, DefaultChannelPipeline$TailContext#0]
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-9] reactor.netty.ReactorNetty - [9c260470, L:/127.0.0.1:51813 - R:localhost/127.0.0.1:3306] Added encoder [R2dbcMySqlSslBridgeHandler] at the beginning of the user pipeline, full pipeline: [R2dbcMySqlSslBridgeHandler, R2dbcMySqlMessageDuplexCodec, reactor.right.reactiveBridge, DefaultChannelPipeline$TailContext#0]
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-9] reactor.netty.channel.FluxReceive - [9c260470, L:/127.0.0.1:51813 - R:localhost/127.0.0.1:3306] [terminated=false, cancelled=false, pending=0, error=null]: subscribing inbound receiver
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-9] i.a.r.m.client.ReactorNettyClient - Response: HandshakeV10Request{header=HandshakeHeader{protocolVersion=10, serverVersion=8.0.36, connectionId=377}, salt=REDACTED, serverCapability=Capability<0x5bfafbf>, serverStatuses=2, authType='caching_sha2_password'}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-9] i.a.r.m.client.ReactorNettyClient - Request: SslRequest41{capability=Capability<0x12faa0f>, collationId=45}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-9] i.a.r.mysql.client.SslBridgeHandler - SSL event triggered, enable SSL handler to pipeline
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-9] i.n.h.s.u.InsecureTrustManagerFactory - Accepting a server certificate: CN=MySQL_Server_8.0.36_Auto_Generated_Server_Certificate
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-9] io.netty.handler.ssl.SslHandler - [id: 0x9c260470, L:/127.0.0.1:51813 - R:localhost/127.0.0.1:3306] HANDSHAKEN: protocol:TLSv1.3 cipher suite:TLS_AES_128_GCM_SHA256
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-9] i.a.r.m.client.ReactorNettyClient - Response: SyntheticSslResponseMessage{}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-9] i.a.r.m.client.ReactorNettyClient - Request: HandshakeResponse41{capability=Capability<0x12faa0f>, collationId=45, user='root', authentication=REDACTED, authType='caching_sha2_password', database='testdb', attributes={}, zstdCompressionLevel=3}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-9] i.a.r.mysql.client.SslBridgeHandler - SSL handshake completed, remove SSL bridge in pipeline
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-9] i.a.r.m.client.ReactorNettyClient - Response: AuthMoreDataMessage{failed=false}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-9] i.a.r.m.client.MessageDuplexCodec - Decode context change to DecodeContext-Command
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-9] i.a.r.m.client.ReactorNettyClient - Response: OkMessage{isEndOfRows=false, affectedRows=0, lastInsertId=0, serverStatuses=2, information='', systemVariables={}}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-9] io.asyncer.r2dbc.mysql.InitFlow - Initializing client session: []
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-9] io.asyncer.r2dbc.mysql.QUERY - Executing statement [SELECT @@transaction_isolation AS i,@@version_comment AS v]
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-9] i.a.r.m.client.ReactorNettyClient - Request: TextQueryMessage{sql=REDACTED}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-9] i.a.r.m.client.MessageDuplexCodec - Decode context change to DecodeContext-Result
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-9] i.a.r.m.m.s.MetadataDecodeContext - Respond a metadata bundle by filled-up
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-9] i.a.r.m.client.ReactorNettyClient - Response: SyntheticMetadataMessage{completed=false, messages=[DefinitionMetadataMessage{database='', table='' (origin:''), column='i' (origin:''), collationId=45, size=87380, type=253, definitions=0, decimals=31}, DefinitionMetadataMessage{database='', table='' (origin:''), column='v' (origin:''), collationId=45, size=87380, type=253, definitions=0, decimals=31}], eof=null}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-9] i.a.r.m.client.ReactorNettyClient - Response: RowMessage(encoded)
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-9] i.a.r.m.client.MessageDuplexCodec - Decode context change to DecodeContext-Command
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-9] i.a.r.m.client.ReactorNettyClient - Response: OkMessage{isEndOfRows=true, affectedRows=0, lastInsertId=0, serverStatuses=2, information='', systemVariables={}}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-9] io.asyncer.r2dbc.mysql.QUERY - Executing statement [SHOW VARIABLES LIKE 'innodb_lock_wait_timeout']
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-9] i.a.r.m.client.ReactorNettyClient - Request: TextQueryMessage{sql=REDACTED}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-9] i.a.r.m.client.MessageDuplexCodec - Decode context change to DecodeContext-Result
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-9] i.a.r.m.m.s.MetadataDecodeContext - Respond a metadata bundle by filled-up
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-9] i.a.r.m.client.ReactorNettyClient - Response: SyntheticMetadataMessage{completed=false, messages=[DefinitionMetadataMessage{database='performance_schema', table='session_variables' (origin:'session_variables'), column='Variable_name' (origin:'Variable_name'), collationId=45, size=256, type=253, definitions=4097, decimals=0}, DefinitionMetadataMessage{database='performance_schema', table='session_variables' (origin:'session_variables'), column='Value' (origin:'Value'), collationId=45, size=4096, type=253, definitions=0, decimals=0}], eof=null}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-9] i.a.r.m.client.ReactorNettyClient - Response: RowMessage(encoded)
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-9] i.a.r.m.client.MessageDuplexCodec - Decode context change to DecodeContext-Command
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-9] i.a.r.m.client.ReactorNettyClient - Response: OkMessage{isEndOfRows=true, affectedRows=0, lastInsertId=0, serverStatuses=22, information='', systemVariables={}}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-9] io.asyncer.r2dbc.mysql.InitFlow - Initializing connection 377 context: SessionState{level=IsolationLevel{sql='REPEATABLE READ'}, product='MySQL Community Server - GPL', timeZone=null, lockWaitTimeout=PT50S, lockWaitTimeoutSupported=true}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-9] i.a.r.mysql.MySqlSimpleConnection - Batch is supported by server
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-9] reactor.pool.SimpleDequePool - warmed up extra resource 7/9
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-10] r.netty.transport.TransportConfig - [c4924067] Initialized pipeline DefaultChannelPipeline{(reactor.right.reactiveBridge = reactor.netty.channel.ChannelOperationsHandler)}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-10] i.n.r.dns.DnsNameResolverBuilder - resolveCache and TTLs are mutually exclusive. TTLs are ignored.
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-10] i.n.r.dns.DnsNameResolverBuilder - cnameCache and TTLs are mutually exclusive. TTLs are ignored.
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-10] i.n.r.dns.DnsNameResolverBuilder - authoritativeDnsServerCache and TTLs are mutually exclusive. TTLs are ignored.
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-10] r.netty.transport.TransportConnector - [c4924067] Connecting to [localhost/127.0.0.1:3306].
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-10] r.n.resources.NewConnectionProvider - [c4924067, L:/127.0.0.1:51814 - R:localhost/127.0.0.1:3306] Connected new channel
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-10] r.n.resources.NewConnectionProvider - [c4924067, L:/127.0.0.1:51814 - R:localhost/127.0.0.1:3306] onStateChange([connected], SimpleConnection{channel=[id: 0xc4924067, L:/127.0.0.1:51814 - R:localhost/127.0.0.1:3306]})
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-10] r.n.resources.NewConnectionProvider - [c4924067, L:/127.0.0.1:51814 - R:localhost/127.0.0.1:3306] onStateChange([configured], ChannelOperations{SimpleConnection{channel=[id: 0xc4924067, L:/127.0.0.1:51814 - R:localhost/127.0.0.1:3306]}})
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-10] reactor.netty.ReactorNetty - [c4924067, L:/127.0.0.1:51814 - R:localhost/127.0.0.1:3306] Added decoder [R2dbcMySqlMessageDuplexCodec] at the end of the user pipeline, full pipeline: [R2dbcMySqlMessageDuplexCodec, reactor.right.reactiveBridge, DefaultChannelPipeline$TailContext#0]
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-10] reactor.netty.ReactorNetty - [c4924067, L:/127.0.0.1:51814 - R:localhost/127.0.0.1:3306] Added encoder [R2dbcMySqlSslBridgeHandler] at the beginning of the user pipeline, full pipeline: [R2dbcMySqlSslBridgeHandler, R2dbcMySqlMessageDuplexCodec, reactor.right.reactiveBridge, DefaultChannelPipeline$TailContext#0]
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-10] reactor.netty.channel.FluxReceive - [c4924067, L:/127.0.0.1:51814 - R:localhost/127.0.0.1:3306] [terminated=false, cancelled=false, pending=0, error=null]: subscribing inbound receiver
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-10] i.a.r.m.client.ReactorNettyClient - Response: HandshakeV10Request{header=HandshakeHeader{protocolVersion=10, serverVersion=8.0.36, connectionId=378}, salt=REDACTED, serverCapability=Capability<0x5bfafbf>, serverStatuses=2, authType='caching_sha2_password'}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-10] i.a.r.m.client.ReactorNettyClient - Request: SslRequest41{capability=Capability<0x12faa0f>, collationId=45}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-10] i.a.r.mysql.client.SslBridgeHandler - SSL event triggered, enable SSL handler to pipeline
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-10] i.n.h.s.u.InsecureTrustManagerFactory - Accepting a server certificate: CN=MySQL_Server_8.0.36_Auto_Generated_Server_Certificate
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-10] io.netty.handler.ssl.SslHandler - [id: 0xc4924067, L:/127.0.0.1:51814 - R:localhost/127.0.0.1:3306] HANDSHAKEN: protocol:TLSv1.3 cipher suite:TLS_AES_128_GCM_SHA256
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-10] i.a.r.m.client.ReactorNettyClient - Response: SyntheticSslResponseMessage{}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-10] i.a.r.m.client.ReactorNettyClient - Request: HandshakeResponse41{capability=Capability<0x12faa0f>, collationId=45, user='root', authentication=REDACTED, authType='caching_sha2_password', database='testdb', attributes={}, zstdCompressionLevel=3}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-10] i.a.r.mysql.client.SslBridgeHandler - SSL handshake completed, remove SSL bridge in pipeline
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-10] i.a.r.m.client.ReactorNettyClient - Response: AuthMoreDataMessage{failed=false}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-10] i.a.r.m.client.MessageDuplexCodec - Decode context change to DecodeContext-Command
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-10] i.a.r.m.client.ReactorNettyClient - Response: OkMessage{isEndOfRows=false, affectedRows=0, lastInsertId=0, serverStatuses=2, information='', systemVariables={}}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-10] io.asyncer.r2dbc.mysql.InitFlow - Initializing client session: []
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-10] io.asyncer.r2dbc.mysql.QUERY - Executing statement [SELECT @@transaction_isolation AS i,@@version_comment AS v]
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-10] i.a.r.m.client.ReactorNettyClient - Request: TextQueryMessage{sql=REDACTED}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-10] i.a.r.m.client.MessageDuplexCodec - Decode context change to DecodeContext-Result
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-10] i.a.r.m.m.s.MetadataDecodeContext - Respond a metadata bundle by filled-up
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-10] i.a.r.m.client.ReactorNettyClient - Response: SyntheticMetadataMessage{completed=false, messages=[DefinitionMetadataMessage{database='', table='' (origin:''), column='i' (origin:''), collationId=45, size=87380, type=253, definitions=0, decimals=31}, DefinitionMetadataMessage{database='', table='' (origin:''), column='v' (origin:''), collationId=45, size=87380, type=253, definitions=0, decimals=31}], eof=null}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-10] i.a.r.m.client.ReactorNettyClient - Response: RowMessage(encoded)
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-10] i.a.r.m.client.MessageDuplexCodec - Decode context change to DecodeContext-Command
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-10] i.a.r.m.client.ReactorNettyClient - Response: OkMessage{isEndOfRows=true, affectedRows=0, lastInsertId=0, serverStatuses=2, information='', systemVariables={}}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-10] io.asyncer.r2dbc.mysql.QUERY - Executing statement [SHOW VARIABLES LIKE 'innodb_lock_wait_timeout']
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-10] i.a.r.m.client.ReactorNettyClient - Request: TextQueryMessage{sql=REDACTED}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-10] i.a.r.m.client.MessageDuplexCodec - Decode context change to DecodeContext-Result
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-10] i.a.r.m.m.s.MetadataDecodeContext - Respond a metadata bundle by filled-up
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-10] i.a.r.m.client.ReactorNettyClient - Response: SyntheticMetadataMessage{completed=false, messages=[DefinitionMetadataMessage{database='performance_schema', table='session_variables' (origin:'session_variables'), column='Variable_name' (origin:'Variable_name'), collationId=45, size=256, type=253, definitions=4097, decimals=0}, DefinitionMetadataMessage{database='performance_schema', table='session_variables' (origin:'session_variables'), column='Value' (origin:'Value'), collationId=45, size=4096, type=253, definitions=0, decimals=0}], eof=null}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-10] i.a.r.m.client.ReactorNettyClient - Response: RowMessage(encoded)
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-10] i.a.r.m.client.MessageDuplexCodec - Decode context change to DecodeContext-Command
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-10] i.a.r.m.client.ReactorNettyClient - Response: OkMessage{isEndOfRows=true, affectedRows=0, lastInsertId=0, serverStatuses=22, information='', systemVariables={}}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-10] io.asyncer.r2dbc.mysql.InitFlow - Initializing connection 378 context: SessionState{level=IsolationLevel{sql='REPEATABLE READ'}, product='MySQL Community Server - GPL', timeZone=null, lockWaitTimeout=PT50S, lockWaitTimeoutSupported=true}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-10] i.a.r.mysql.MySqlSimpleConnection - Batch is supported by server
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-10] reactor.pool.SimpleDequePool - warmed up extra resource 8/9
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-11] r.netty.transport.TransportConfig - [cdaa575d] Initialized pipeline DefaultChannelPipeline{(reactor.right.reactiveBridge = reactor.netty.channel.ChannelOperationsHandler)}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-11] i.n.r.dns.DnsNameResolverBuilder - resolveCache and TTLs are mutually exclusive. TTLs are ignored.
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-11] i.n.r.dns.DnsNameResolverBuilder - cnameCache and TTLs are mutually exclusive. TTLs are ignored.
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-11] i.n.r.dns.DnsNameResolverBuilder - authoritativeDnsServerCache and TTLs are mutually exclusive. TTLs are ignored.
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-11] r.netty.transport.TransportConnector - [cdaa575d] Connecting to [localhost/127.0.0.1:3306].
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-11] r.n.resources.NewConnectionProvider - [cdaa575d, L:/127.0.0.1:51815 - R:localhost/127.0.0.1:3306] Connected new channel
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-11] r.n.resources.NewConnectionProvider - [cdaa575d, L:/127.0.0.1:51815 - R:localhost/127.0.0.1:3306] onStateChange([connected], SimpleConnection{channel=[id: 0xcdaa575d, L:/127.0.0.1:51815 - R:localhost/127.0.0.1:3306]})
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-11] r.n.resources.NewConnectionProvider - [cdaa575d, L:/127.0.0.1:51815 - R:localhost/127.0.0.1:3306] onStateChange([configured], ChannelOperations{SimpleConnection{channel=[id: 0xcdaa575d, L:/127.0.0.1:51815 - R:localhost/127.0.0.1:3306]}})
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-11] reactor.netty.ReactorNetty - [cdaa575d, L:/127.0.0.1:51815 - R:localhost/127.0.0.1:3306] Added decoder [R2dbcMySqlMessageDuplexCodec] at the end of the user pipeline, full pipeline: [R2dbcMySqlMessageDuplexCodec, reactor.right.reactiveBridge, DefaultChannelPipeline$TailContext#0]
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-11] reactor.netty.ReactorNetty - [cdaa575d, L:/127.0.0.1:51815 - R:localhost/127.0.0.1:3306] Added encoder [R2dbcMySqlSslBridgeHandler] at the beginning of the user pipeline, full pipeline: [R2dbcMySqlSslBridgeHandler, R2dbcMySqlMessageDuplexCodec, reactor.right.reactiveBridge, DefaultChannelPipeline$TailContext#0]
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-11] reactor.netty.channel.FluxReceive - [cdaa575d, L:/127.0.0.1:51815 - R:localhost/127.0.0.1:3306] [terminated=false, cancelled=false, pending=0, error=null]: subscribing inbound receiver
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-11] i.a.r.m.client.ReactorNettyClient - Response: HandshakeV10Request{header=HandshakeHeader{protocolVersion=10, serverVersion=8.0.36, connectionId=379}, salt=REDACTED, serverCapability=Capability<0x5bfafbf>, serverStatuses=2, authType='caching_sha2_password'}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-11] i.a.r.m.client.ReactorNettyClient - Request: SslRequest41{capability=Capability<0x12faa0f>, collationId=45}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-11] i.a.r.mysql.client.SslBridgeHandler - SSL event triggered, enable SSL handler to pipeline
+2024-12-29 23:51:42 DEBUG [restartedMain] _.s.w.s.HandlerMapping.Mappings - 
+	c.c.t.C.ResourceController:
+	{GET [/resources/user]}: read_user(Authentication)
+	{GET [/resources/clientedp/{codigounico}]}: getdatos(long)
+	{GET [/resources/clienteinfo/{codigounico}]}: getCliente(long)
+	{GET [/resources/clientedf/{codigounico}]}: getproductos(long)
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-11] i.n.h.s.u.InsecureTrustManagerFactory - Accepting a server certificate: CN=MySQL_Server_8.0.36_Auto_Generated_Server_Certificate
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-11] io.netty.handler.ssl.SslHandler - [id: 0xcdaa575d, L:/127.0.0.1:51815 - R:localhost/127.0.0.1:3306] HANDSHAKEN: protocol:TLSv1.3 cipher suite:TLS_AES_128_GCM_SHA256
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-11] i.a.r.m.client.ReactorNettyClient - Response: SyntheticSslResponseMessage{}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-11] i.a.r.m.client.ReactorNettyClient - Request: HandshakeResponse41{capability=Capability<0x12faa0f>, collationId=45, user='root', authentication=REDACTED, authType='caching_sha2_password', database='testdb', attributes={}, zstdCompressionLevel=3}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-11] i.a.r.mysql.client.SslBridgeHandler - SSL handshake completed, remove SSL bridge in pipeline
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-11] i.a.r.m.client.ReactorNettyClient - Response: AuthMoreDataMessage{failed=false}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-11] i.a.r.m.client.MessageDuplexCodec - Decode context change to DecodeContext-Command
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-11] i.a.r.m.client.ReactorNettyClient - Response: OkMessage{isEndOfRows=false, affectedRows=0, lastInsertId=0, serverStatuses=2, information='', systemVariables={}}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-11] io.asyncer.r2dbc.mysql.InitFlow - Initializing client session: []
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-11] io.asyncer.r2dbc.mysql.QUERY - Executing statement [SELECT @@transaction_isolation AS i,@@version_comment AS v]
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-11] i.a.r.m.client.ReactorNettyClient - Request: TextQueryMessage{sql=REDACTED}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-11] i.a.r.m.client.MessageDuplexCodec - Decode context change to DecodeContext-Result
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-11] i.a.r.m.m.s.MetadataDecodeContext - Respond a metadata bundle by filled-up
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-11] i.a.r.m.client.ReactorNettyClient - Response: SyntheticMetadataMessage{completed=false, messages=[DefinitionMetadataMessage{database='', table='' (origin:''), column='i' (origin:''), collationId=45, size=87380, type=253, definitions=0, decimals=31}, DefinitionMetadataMessage{database='', table='' (origin:''), column='v' (origin:''), collationId=45, size=87380, type=253, definitions=0, decimals=31}], eof=null}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-11] i.a.r.m.client.ReactorNettyClient - Response: RowMessage(encoded)
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-11] i.a.r.m.client.MessageDuplexCodec - Decode context change to DecodeContext-Command
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-11] i.a.r.m.client.ReactorNettyClient - Response: OkMessage{isEndOfRows=true, affectedRows=0, lastInsertId=0, serverStatuses=2, information='', systemVariables={}}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-11] io.asyncer.r2dbc.mysql.QUERY - Executing statement [SHOW VARIABLES LIKE 'innodb_lock_wait_timeout']
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-11] i.a.r.m.client.ReactorNettyClient - Request: TextQueryMessage{sql=REDACTED}
+2024-12-29 23:51:42 DEBUG [restartedMain] _.s.w.s.HandlerMapping.Mappings - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+	{ [/error]}: error(HttpServletRequest)
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-11] i.a.r.m.client.MessageDuplexCodec - Decode context change to DecodeContext-Result
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-11] i.a.r.m.m.s.MetadataDecodeContext - Respond a metadata bundle by filled-up
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-11] i.a.r.m.client.ReactorNettyClient - Response: SyntheticMetadataMessage{completed=false, messages=[DefinitionMetadataMessage{database='performance_schema', table='session_variables' (origin:'session_variables'), column='Variable_name' (origin:'Variable_name'), collationId=45, size=256, type=253, definitions=4097, decimals=0}, DefinitionMetadataMessage{database='performance_schema', table='session_variables' (origin:'session_variables'), column='Value' (origin:'Value'), collationId=45, size=4096, type=253, definitions=0, decimals=0}], eof=null}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-11] i.a.r.m.client.ReactorNettyClient - Response: RowMessage(encoded)
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-11] i.a.r.m.client.MessageDuplexCodec - Decode context change to DecodeContext-Command
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-11] i.a.r.m.client.ReactorNettyClient - Response: OkMessage{isEndOfRows=true, affectedRows=0, lastInsertId=0, serverStatuses=22, information='', systemVariables={}}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-11] io.asyncer.r2dbc.mysql.InitFlow - Initializing connection 379 context: SessionState{level=IsolationLevel{sql='REPEATABLE READ'}, product='MySQL Community Server - GPL', timeZone=null, lockWaitTimeout=PT50S, lockWaitTimeoutSupported=true}
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-11] i.a.r.mysql.MySqlSimpleConnection - Batch is supported by server
+2024-12-29 23:51:42 DEBUG [reactor-tcp-nio-11] reactor.pool.SimpleDequePool - warmed up extra resource 9/9
+2024-12-29 23:51:42 DEBUG [restartedMain] _.s.w.s.HandlerMapping.Mappings - 'beanNameHandlerMapping' {}
+2024-12-29 23:51:42 DEBUG [restartedMain] _.s.w.s.HandlerMapping.Mappings - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]}
+2024-12-29 23:51:42 DEBUG [restartedMain] reactor.core.publisher.Hooks - Hooking onLastOperator: org.springframework.security.SECURITY_REACTOR_CONTEXT_OPERATOR
+2024-12-29 23:51:43 DEBUG [restartedMain] reactor.netty.tcp.TcpResources - [http] resources will use the default LoopResources: DefaultLoopResources {prefix=reactor-http, daemon=true, selectCount=16, workerCount=16}
+2024-12-29 23:51:43 DEBUG [restartedMain] reactor.netty.tcp.TcpResources - [http] resources will use the default ConnectionProvider: reactor.netty.resources.DefaultPooledConnectionProvider@620993f
+2024-12-29 23:51:43 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-7000"]
+2024-12-29 23:51:43 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 7000 (http) with context path '/'
+2024-12-29 23:51:43 INFO  [restartedMain] c.cortez.testapi.TestapiApplication - Started TestapiApplication in 5.353 seconds (process running for 6.001)
+2024-12-29 23:59:52 INFO  [http-nio-7000-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-29 23:59:52 INFO  [http-nio-7000-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-12-29 23:59:52 INFO  [http-nio-7000-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-12-29 23:59:52 DEBUG [http-nio-7000-exec-1] i.m.c.u.i.l.InternalLoggerFactory - Using SLF4J as the default logging framework
+2024-12-29 23:59:52 INFO  [http-nio-7000-exec-1] c.c.t.Controller.ResourceController - Iniciando búsqueda de información completa para cliente: 124
+2024-12-29 23:59:52 DEBUG [http-nio-7000-exec-1] c.c.t.Controller.ResourceController - Código encriptado generado: K7+/YteJexA2rRgMn4vDO7DhHWU6tNg+Dm68Q5PbMo7KcPzlYwmV0opou9mwzxl0
+2024-12-29 23:59:52 DEBUG [http-nio-7000-exec-1] io.r2dbc.pool.ConnectionPool - Obtaining new connection from the pool
+2024-12-29 23:59:52 DEBUG [http-nio-7000-exec-1] i.a.r.mysql.MySqlSimpleConnection - Create a parameterized statement provided by text query
+2024-12-29 23:59:52 DEBUG [http-nio-7000-exec-1] io.asyncer.r2dbc.mysql.QUERY - Executing statement [SELECT clientes.id, clientes.codigounico, clientes.nombres, clientes.apellidos, clientes.tipodoc, clientes.numerodoc FROM clientes WHERE clientes.codigounico = ?] with [124]
+2024-12-29 23:59:52 DEBUG [http-nio-7000-exec-1] i.a.r.m.client.ReactorNettyClient - Request: PreparedTextQueryMessage{sql=REDACTED}
+2024-12-29 23:59:52 DEBUG [http-nio-7000-exec-1] io.r2dbc.pool.ConnectionPool - Obtaining new connection from the pool
+2024-12-29 23:59:52 DEBUG [http-nio-7000-exec-1] i.a.r.mysql.MySqlSimpleConnection - Create a parameterized statement provided by text query
+2024-12-29 23:59:52 DEBUG [http-nio-7000-exec-1] io.asyncer.r2dbc.mysql.QUERY - Executing statement [SELECT producto.id, producto.tipoproducto, producto.nombre, producto.saldo, producto.codigocliente FROM producto WHERE producto.codigocliente = ?] with [124]
+2024-12-29 23:59:52 DEBUG [http-nio-7000-exec-1] i.a.r.m.client.ReactorNettyClient - Request: PreparedTextQueryMessage{sql=REDACTED}
+2024-12-29 23:59:52 DEBUG [reactor-tcp-nio-10] i.a.r.m.client.MessageDuplexCodec - Decode context change to DecodeContext-Result
+2024-12-29 23:59:52 DEBUG [reactor-tcp-nio-11] i.a.r.m.client.MessageDuplexCodec - Decode context change to DecodeContext-Result
+2024-12-29 23:59:52 DEBUG [reactor-tcp-nio-10] i.a.r.m.m.s.MetadataDecodeContext - Respond a metadata bundle by filled-up
+2024-12-29 23:59:52 DEBUG [reactor-tcp-nio-11] i.a.r.m.m.s.MetadataDecodeContext - Respond a metadata bundle by filled-up
+2024-12-29 23:59:52 DEBUG [reactor-tcp-nio-10] i.a.r.m.client.ReactorNettyClient - Response: SyntheticMetadataMessage{completed=false, messages=[DefinitionMetadataMessage{database='testdb', table='producto' (origin:'producto'), column='id' (origin:'id'), collationId=63, size=20, type=8, definitions=16931, decimals=0}, DefinitionMetadataMessage{database='testdb', table='producto' (origin:'producto'), column='tipoproducto' (origin:'tipoproducto'), collationId=45, size=180, type=253, definitions=0, decimals=0}, ...more 3 messages], eof=null}
+2024-12-29 23:59:52 DEBUG [reactor-tcp-nio-11] i.a.r.m.client.ReactorNettyClient - Response: SyntheticMetadataMessage{completed=false, messages=[DefinitionMetadataMessage{database='testdb', table='clientes' (origin:'clientes'), column='id' (origin:'id'), collationId=63, size=20, type=8, definitions=16931, decimals=0}, DefinitionMetadataMessage{database='testdb', table='clientes' (origin:'clientes'), column='codigounico' (origin:'codigounico'), collationId=63, size=20, type=8, definitions=20517, decimals=0}, ...more 4 messages], eof=null}
+2024-12-29 23:59:52 DEBUG [reactor-tcp-nio-10] i.a.r.m.client.ReactorNettyClient - Response: RowMessage(encoded)
+2024-12-29 23:59:52 DEBUG [reactor-tcp-nio-11] i.a.r.m.client.ReactorNettyClient - Response: RowMessage(encoded)
+2024-12-29 23:59:52 DEBUG [reactor-tcp-nio-11] i.a.r.m.client.MessageDuplexCodec - Decode context change to DecodeContext-Command
+2024-12-29 23:59:52 DEBUG [reactor-tcp-nio-11] i.a.r.m.client.ReactorNettyClient - Response: OkMessage{isEndOfRows=true, affectedRows=0, lastInsertId=0, serverStatuses=2, information='', systemVariables={}}
+2024-12-29 23:59:52 DEBUG [reactor-tcp-nio-10] i.a.r.m.client.ReactorNettyClient - Response: RowMessage(encoded)
+2024-12-29 23:59:52 DEBUG [reactor-tcp-nio-11] io.r2dbc.pool.PooledConnection - Releasing connection
+2024-12-29 23:59:52 DEBUG [reactor-tcp-nio-11] i.a.r.m.client.ReactorNettyClient - Request: PingMessage{}
+2024-12-29 23:59:52 DEBUG [reactor-tcp-nio-10] i.a.r.m.client.MessageDuplexCodec - Decode context change to DecodeContext-Command
+2024-12-29 23:59:52 DEBUG [reactor-tcp-nio-10] i.a.r.m.client.ReactorNettyClient - Response: OkMessage{isEndOfRows=true, affectedRows=0, lastInsertId=0, serverStatuses=2, information='', systemVariables={}}
+2024-12-29 23:59:52 DEBUG [reactor-tcp-nio-10] io.r2dbc.pool.PooledConnection - Releasing connection
+2024-12-29 23:59:52 DEBUG [reactor-tcp-nio-10] i.a.r.m.client.ReactorNettyClient - Request: PingMessage{}
+2024-12-29 23:59:52 DEBUG [reactor-tcp-nio-11] i.a.r.m.client.MessageDuplexCodec - Decode context change to DecodeContext-Command
+2024-12-29 23:59:52 DEBUG [reactor-tcp-nio-11] i.a.r.m.client.ReactorNettyClient - Response: OkMessage{isEndOfRows=false, affectedRows=0, lastInsertId=0, serverStatuses=2, information='', systemVariables={}}
+2024-12-29 23:59:52 DEBUG [reactor-tcp-nio-10] i.a.r.m.client.MessageDuplexCodec - Decode context change to DecodeContext-Command
+2024-12-29 23:59:52 DEBUG [reactor-tcp-nio-10] i.a.r.m.client.ReactorNettyClient - Response: OkMessage{isEndOfRows=false, affectedRows=0, lastInsertId=0, serverStatuses=2, information='', systemVariables={}}
+2024-12-29 23:59:52 DEBUG [reactor-tcp-nio-10] c.c.t.Controller.ResourceController - Lista de productos obtenida para cliente: 124
+2024-12-29 23:59:52 DEBUG [reactor-tcp-nio-11] c.c.t.Controller.ResourceController - Datos básicos del cliente obtenidos: 74823099
+2024-12-29 23:59:52 INFO  [reactor-tcp-nio-11] c.c.t.Controller.ResourceController - Respuesta generada exitosamente para cliente: 124
+2024-12-29 23:59:52 DEBUG [reactor-tcp-nio-11] c.c.t.Controller.ResourceController - Cantidad de productos encontrados: 2

@@ -1,0 +1,798 @@
+2025-01-02 00:31:08 INFO  [File Watcher] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 12 class path changes (0 additions, 0 deletions, 12 modifications)
+2025-01-02 00:31:08 INFO  [Thread-105] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-02 00:31:08 INFO  [tomcat-shutdown] o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-7000"]
+2025-01-02 00:31:08 INFO  [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-01-02 00:31:08 INFO  [Thread-105] o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-7000"]
+2025-01-02 00:31:08 INFO  [restartedMain] c.cortez.testapi.TestapiApplication - Starting TestapiApplication using Java 17.0.13 with PID 50684 (C:\Users\Marco\Desktop\testapi\target\classes started by Marco in C:\Users\Marco\Desktop\testapi)
+2025-01-02 00:31:08 INFO  [restartedMain] c.cortez.testapi.TestapiApplication - No active profile set, falling back to 1 default profile: "default"
+2025-01-02 00:31:08 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 7000 (http)
+2025-01-02 00:31:08 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-7000"]
+2025-01-02 00:31:08 INFO  [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-02 00:31:08 INFO  [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-02 00:31:08 INFO  [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-02 00:31:08 INFO  [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 245 ms
+2025-01-02 00:31:09 INFO  [restartedMain] o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-01-02 00:31:09 WARN  [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2025-01-02 00:31:09 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-7000"]
+2025-01-02 00:31:09 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 7000 (http) with context path '/'
+2025-01-02 00:31:09 INFO  [restartedMain] c.cortez.testapi.TestapiApplication - Started TestapiApplication in 0.424 seconds (process running for 3035.977)
+2025-01-02 00:31:09 INFO  [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-01-02 00:31:30 INFO  [File Watcher] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 12 class path changes (0 additions, 0 deletions, 12 modifications)
+2025-01-02 00:31:30 INFO  [Thread-125] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-02 00:31:30 INFO  [tomcat-shutdown] o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-7000"]
+2025-01-02 00:31:31 INFO  [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-01-02 00:31:31 INFO  [Thread-125] o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-7000"]
+2025-01-02 00:31:31 INFO  [restartedMain] c.cortez.testapi.TestapiApplication - Starting TestapiApplication using Java 17.0.13 with PID 50684 (C:\Users\Marco\Desktop\testapi\target\classes started by Marco in C:\Users\Marco\Desktop\testapi)
+2025-01-02 00:31:31 INFO  [restartedMain] c.cortez.testapi.TestapiApplication - No active profile set, falling back to 1 default profile: "default"
+2025-01-02 00:31:31 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 7000 (http)
+2025-01-02 00:31:31 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-7000"]
+2025-01-02 00:31:31 INFO  [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-02 00:31:31 INFO  [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-02 00:31:31 INFO  [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-02 00:31:31 INFO  [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 183 ms
+2025-01-02 00:31:31 INFO  [restartedMain] o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-01-02 00:31:31 WARN  [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2025-01-02 00:31:31 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-7000"]
+2025-01-02 00:31:31 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 7000 (http) with context path '/'
+2025-01-02 00:31:31 INFO  [restartedMain] c.cortez.testapi.TestapiApplication - Started TestapiApplication in 0.498 seconds (process running for 3058.673)
+2025-01-02 00:31:31 INFO  [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-01-02 00:34:48 INFO  [http-nio-7000-exec-1] o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-02 00:34:48 INFO  [http-nio-7000-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-01-02 00:34:48 INFO  [http-nio-7000-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-01-02 00:34:49 INFO  [http-nio-7000-exec-9] o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 35 ms
+2025-01-02 01:41:25 INFO  [main] c.c.testapi.testapi.ControllerTest - Starting ControllerTest using Java 21.0.2 with PID 12152 (started by Marco in C:\Users\Marco\Desktop\testapi)
+2025-01-02 01:41:25 INFO  [main] c.c.testapi.testapi.ControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-01-02 01:41:26 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 0 (http)
+2025-01-02 01:41:26 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-auto-1"]
+2025-01-02 01:41:26 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-02 01:41:26 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-02 01:41:26 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-02 01:41:26 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1712 ms
+2025-01-02 01:41:27 INFO  [main] o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-01-02 01:41:28 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring TestDispatcherServlet ''
+2025-01-02 01:41:28 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-01-02 01:41:28 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2025-01-02 01:41:28 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-auto-1"]
+2025-01-02 01:41:28 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 52325 (http) with context path '/'
+2025-01-02 01:41:28 INFO  [main] c.c.testapi.testapi.ControllerTest - Started ControllerTest in 4.162 seconds (process running for 6.028)
+2025-01-02 01:41:28 INFO  [main] c.c.t.service.ClientProductService - Iniciando búsqueda: 123
+2025-01-02 01:41:28 INFO  [main] c.c.t.service.ClientProductService - Iniciando búsqueda: 123
+2025-01-02 01:41:28 INFO  [main] c.c.t.service.ClientProductService - Iniciando búsqueda: 123
+2025-01-02 01:41:28 INFO  [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-02 01:41:29 INFO  [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-01-02 01:42:08 INFO  [main] c.c.testapi.testapi.ControllerTest - Starting ControllerTest using Java 17.0.13 with PID 10688 (started by Marco in C:\Users\Marco\Desktop\testapi)
+2025-01-02 01:42:08 INFO  [main] c.c.testapi.testapi.ControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-01-02 01:42:09 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 0 (http)
+2025-01-02 01:42:10 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-auto-1"]
+2025-01-02 01:42:10 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-02 01:42:10 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-02 01:42:10 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-02 01:42:10 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1800 ms
+2025-01-02 01:42:11 INFO  [main] o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-01-02 01:42:11 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring TestDispatcherServlet ''
+2025-01-02 01:42:11 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-01-02 01:42:11 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2025-01-02 01:42:12 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-auto-1"]
+2025-01-02 01:42:12 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 52361 (http) with context path '/'
+2025-01-02 01:42:12 INFO  [main] c.c.testapi.testapi.ControllerTest - Started ControllerTest in 4.63 seconds (process running for 6.73)
+2025-01-02 01:42:12 INFO  [main] c.c.t.service.ClientProductService - Iniciando búsqueda: 123
+2025-01-02 01:42:12 INFO  [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-02 01:42:12 INFO  [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-01-02 01:47:20 INFO  [main] c.c.testapi.testapi.ControllerTest - Starting ControllerTest using Java 17.0.13 with PID 3556 (started by Marco in C:\Users\Marco\Desktop\testapi)
+2025-01-02 01:47:20 INFO  [main] c.c.testapi.testapi.ControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-01-02 01:47:22 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 0 (http)
+2025-01-02 01:47:22 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-auto-1"]
+2025-01-02 01:47:22 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-02 01:47:22 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-02 01:47:22 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-02 01:47:22 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1883 ms
+2025-01-02 01:47:23 INFO  [main] o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-01-02 01:47:24 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring TestDispatcherServlet ''
+2025-01-02 01:47:24 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-01-02 01:47:24 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2025-01-02 01:47:24 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-auto-1"]
+2025-01-02 01:47:24 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 52651 (http) with context path '/'
+2025-01-02 01:47:24 INFO  [main] c.c.testapi.testapi.ControllerTest - Started ControllerTest in 4.914 seconds (process running for 7.03)
+2025-01-02 01:47:24 INFO  [main] c.c.t.service.ClientProductService - Iniciando búsqueda: 123
+2025-01-02 01:47:24 INFO  [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-02 01:47:25 INFO  [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-01-02 01:56:58 INFO  [main] c.c.testapi.testapi.ControllerTest - Starting ControllerTest using Java 21.0.2 with PID 15176 (started by Marco in C:\Users\Marco\Desktop\testapi)
+2025-01-02 01:56:58 INFO  [main] c.c.testapi.testapi.ControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-01-02 01:57:00 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 0 (http)
+2025-01-02 01:57:00 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-auto-1"]
+2025-01-02 01:57:00 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-02 01:57:00 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-02 01:57:00 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-02 01:57:00 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1963 ms
+2025-01-02 01:57:01 INFO  [main] o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-01-02 01:57:01 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring TestDispatcherServlet ''
+2025-01-02 01:57:01 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-01-02 01:57:01 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2025-01-02 01:57:02 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-auto-1"]
+2025-01-02 01:57:02 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 53051 (http) with context path '/'
+2025-01-02 01:57:02 INFO  [main] c.c.testapi.testapi.ControllerTest - Started ControllerTest in 4.571 seconds (process running for 6.773)
+2025-01-02 01:57:02 INFO  [main] c.c.t.service.ClientProductService - Iniciando búsqueda: 123
+2025-01-02 01:57:02 INFO  [main] c.c.t.service.ClientProductService - Iniciando búsqueda: 12345
+2025-01-02 01:57:02 INFO  [main] c.c.t.service.ClientProductService - Lista de productos obtenida para cliente: 12345, Request-ID: request-id-123
+2025-01-02 01:57:02 INFO  [main] c.c.t.service.ClientProductService - Respuesta generada: 12345
+2025-01-02 01:57:02 INFO  [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-02 01:57:02 INFO  [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-01-02 01:58:46 INFO  [main] c.c.testapi.testapi.ControllerTest - Starting ControllerTest using Java 21.0.2 with PID 12936 (started by Marco in C:\Users\Marco\Desktop\testapi)
+2025-01-02 01:58:46 INFO  [main] c.c.testapi.testapi.ControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-01-02 01:58:47 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 0 (http)
+2025-01-02 01:58:47 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-auto-1"]
+2025-01-02 01:58:47 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-02 01:58:47 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-02 01:58:48 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-02 01:58:48 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1870 ms
+2025-01-02 01:58:48 INFO  [main] o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-01-02 01:58:49 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring TestDispatcherServlet ''
+2025-01-02 01:58:49 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-01-02 01:58:49 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2025-01-02 01:58:49 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-auto-1"]
+2025-01-02 01:58:49 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 53111 (http) with context path '/'
+2025-01-02 01:58:49 INFO  [main] c.c.testapi.testapi.ControllerTest - Started ControllerTest in 4.109 seconds (process running for 5.951)
+2025-01-02 01:58:49 INFO  [main] c.c.t.service.ClientProductService - Iniciando búsqueda: 123
+2025-01-02 01:58:49 INFO  [main] c.c.t.service.ClientProductService - Iniciando búsqueda: 12345
+2025-01-02 01:58:50 INFO  [main] c.c.t.service.ClientProductService - Lista de productos obtenida para cliente: 12345, Request-ID: request-id-123
+2025-01-02 01:58:50 INFO  [main] c.c.t.service.ClientProductService - Respuesta generada: 12345
+2025-01-02 01:58:50 INFO  [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-02 01:58:50 INFO  [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-01-02 01:59:36 INFO  [main] c.c.testapi.testapi.ControllerTest - Starting ControllerTest using Java 21.0.2 with PID 35656 (started by Marco in C:\Users\Marco\Desktop\testapi)
+2025-01-02 01:59:36 INFO  [main] c.c.testapi.testapi.ControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-01-02 01:59:37 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 0 (http)
+2025-01-02 01:59:37 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-auto-1"]
+2025-01-02 01:59:37 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-02 01:59:37 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-02 01:59:37 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-02 01:59:37 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1806 ms
+2025-01-02 01:59:39 INFO  [main] o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-01-02 01:59:39 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring TestDispatcherServlet ''
+2025-01-02 01:59:39 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-01-02 01:59:39 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2025-01-02 01:59:39 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-auto-1"]
+2025-01-02 01:59:39 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 53150 (http) with context path '/'
+2025-01-02 01:59:39 INFO  [main] c.c.testapi.testapi.ControllerTest - Started ControllerTest in 4.4 seconds (process running for 6.393)
+2025-01-02 01:59:40 INFO  [main] c.c.t.service.ClientProductService - Iniciando búsqueda: 123
+2025-01-02 01:59:40 INFO  [main] c.c.t.service.ClientProductService - Iniciando búsqueda: 12345
+2025-01-02 01:59:40 INFO  [main] c.c.t.service.ClientProductService - Lista de productos obtenida para cliente: 12345, Request-ID: request-id-123
+2025-01-02 01:59:40 INFO  [main] c.c.t.service.ClientProductService - Respuesta generada: 12345
+2025-01-02 01:59:40 INFO  [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-02 01:59:40 INFO  [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-01-02 02:02:49 INFO  [restartedMain] c.cortez.testapi.TestapiApplication - Starting TestapiApplication using Java 17.0.13 with PID 28788 (C:\Users\Marco\Desktop\testapi\target\classes started by Marco in C:\Users\Marco\Desktop\testapi)
+2025-01-02 02:02:49 INFO  [restartedMain] c.cortez.testapi.TestapiApplication - No active profile set, falling back to 1 default profile: "default"
+2025-01-02 02:02:49 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-01-02 02:02:49 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-01-02 02:02:50 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 7000 (http)
+2025-01-02 02:02:50 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-7000"]
+2025-01-02 02:02:50 INFO  [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-02 02:02:50 INFO  [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-02 02:02:50 INFO  [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-02 02:02:50 INFO  [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1413 ms
+2025-01-02 02:02:51 INFO  [restartedMain] o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-01-02 02:02:52 INFO  [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-01-02 02:02:52 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-7000"]
+2025-01-02 02:02:52 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 7000 (http) with context path '/'
+2025-01-02 02:02:52 INFO  [restartedMain] c.cortez.testapi.TestapiApplication - Started TestapiApplication in 4.178 seconds (process running for 4.772)
+2025-01-02 02:03:09 INFO  [File Watcher] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 12 class path changes (0 additions, 11 deletions, 1 modification)
+2025-01-02 02:03:09 INFO  [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-02 02:03:09 INFO  [tomcat-shutdown] o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-7000"]
+2025-01-02 02:03:09 INFO  [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-01-02 02:03:09 INFO  [Thread-5] o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-7000"]
+2025-01-02 02:03:10 INFO  [restartedMain] c.cortez.testapi.TestapiApplication - Starting TestapiApplication using Java 17.0.13 with PID 28788 (C:\Users\Marco\Desktop\testapi\target\classes started by Marco in C:\Users\Marco\Desktop\testapi)
+2025-01-02 02:03:10 INFO  [restartedMain] c.cortez.testapi.TestapiApplication - No active profile set, falling back to 1 default profile: "default"
+2025-01-02 02:03:10 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 7000 (http)
+2025-01-02 02:03:10 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-7000"]
+2025-01-02 02:03:10 INFO  [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-02 02:03:10 INFO  [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-02 02:03:10 INFO  [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-02 02:03:10 INFO  [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 455 ms
+2025-01-02 02:03:10 INFO  [restartedMain] o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-01-02 02:03:11 INFO  [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-01-02 02:03:11 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-7000"]
+2025-01-02 02:03:11 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 7000 (http) with context path '/'
+2025-01-02 02:03:11 INFO  [restartedMain] c.cortez.testapi.TestapiApplication - Started TestapiApplication in 1.064 seconds (process running for 23.05)
+2025-01-02 02:03:11 INFO  [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   OAuth2ResourceServerJwtConfiguration.OAuth2SecurityFilterChainConfiguration matched:
+      - AllNestedConditions 2 matched 0 did not; NestedCondition on DefaultWebSecurityCondition.Beans @ConditionalOnMissingBean (types: org.springframework.security.web.SecurityFilterChain; SearchStrategy: all) did not find any beans; NestedCondition on DefaultWebSecurityCondition.Classes @ConditionalOnClass found required classes 'org.springframework.security.web.SecurityFilterChain', 'org.springframework.security.config.annotation.web.builders.HttpSecurity' (DefaultWebSecurityCondition)
+
+   OAuth2ResourceServerJwtConfiguration.OAuth2SecurityFilterChainConfiguration#jwtSecurityFilterChain matched:
+      - @ConditionalOnBean (types: org.springframework.security.oauth2.jwt.JwtDecoder; SearchStrategy: all) found bean 'jwtDecoderByIssuerUri' (OnBeanCondition)
+
+   SpringBootWebSecurityConfiguration.WebSecurityEnablerConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.security.config.annotation.web.configuration.EnableWebSecurity' (OnClassCondition)
+      - @ConditionalOnMissingBean (names: springSecurityFilterChain; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+    None
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2025-01-02 02:03:12 INFO  [File Watcher] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 11 class path changes (11 additions, 0 deletions, 0 modifications)
+2025-01-02 02:03:12 INFO  [Thread-24] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-02 02:03:12 INFO  [tomcat-shutdown] o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-7000"]
+2025-01-02 02:03:12 INFO  [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-01-02 02:03:12 INFO  [Thread-24] o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-7000"]
+2025-01-02 02:03:13 INFO  [restartedMain] c.cortez.testapi.TestapiApplication - Starting TestapiApplication using Java 17.0.13 with PID 28788 (C:\Users\Marco\Desktop\testapi\target\classes started by Marco in C:\Users\Marco\Desktop\testapi)
+2025-01-02 02:03:13 INFO  [restartedMain] c.cortez.testapi.TestapiApplication - No active profile set, falling back to 1 default profile: "default"
+2025-01-02 02:03:13 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 7000 (http)
+2025-01-02 02:03:13 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-7000"]
+2025-01-02 02:03:13 INFO  [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-02 02:03:13 INFO  [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-02 02:03:13 INFO  [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-02 02:03:13 INFO  [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 251 ms
+2025-01-02 02:03:13 INFO  [restartedMain] o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-01-02 02:03:13 INFO  [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-01-02 02:03:13 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-7000"]
+2025-01-02 02:03:13 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 7000 (http) with context path '/'
+2025-01-02 02:03:13 INFO  [restartedMain] c.cortez.testapi.TestapiApplication - Started TestapiApplication in 0.491 seconds (process running for 25.482)
+2025-01-02 02:03:13 INFO  [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+    None
+
+
+Negative matches:
+-----------------
+
+   OAuth2ResourceServerJwtConfiguration.OAuth2SecurityFilterChainConfiguration:
+      Did not match:
+         - AllNestedConditions 1 matched 1 did not; NestedCondition on DefaultWebSecurityCondition.Beans @ConditionalOnMissingBean (types: org.springframework.security.web.SecurityFilterChain; SearchStrategy: all) found beans of type 'org.springframework.security.web.SecurityFilterChain' filterChain; NestedCondition on DefaultWebSecurityCondition.Classes @ConditionalOnClass found required classes 'org.springframework.security.web.SecurityFilterChain', 'org.springframework.security.config.annotation.web.builders.HttpSecurity' (DefaultWebSecurityCondition)
+
+   SpringBootWebSecurityConfiguration.WebSecurityEnablerConfiguration:
+      Did not match:
+         - @ConditionalOnMissingBean (names: springSecurityFilterChain; SearchStrategy: all) found beans named springSecurityFilterChain (OnBeanCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.security.config.annotation.web.configuration.EnableWebSecurity' (OnClassCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2025-01-02 02:03:26 INFO  [main] c.c.testapi.testapi.ControllerTest - Starting ControllerTest using Java 17.0.13 with PID 15880 (started by Marco in C:\Users\Marco\Desktop\testapi)
+2025-01-02 02:03:26 INFO  [main] c.c.testapi.testapi.ControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-01-02 02:03:27 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 0 (http)
+2025-01-02 02:03:27 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-auto-1"]
+2025-01-02 02:03:27 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-02 02:03:27 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-02 02:03:28 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-02 02:03:28 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1990 ms
+2025-01-02 02:03:29 INFO  [main] o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-01-02 02:03:29 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring TestDispatcherServlet ''
+2025-01-02 02:03:29 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-01-02 02:03:29 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2025-01-02 02:03:30 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-auto-1"]
+2025-01-02 02:03:30 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 53290 (http) with context path '/'
+2025-01-02 02:03:30 INFO  [main] c.c.testapi.testapi.ControllerTest - Started ControllerTest in 5.08 seconds (process running for 7.262)
+2025-01-02 02:03:30 INFO  [main] c.c.t.service.ClientProductService - Iniciando búsqueda: 123
+2025-01-02 02:03:30 INFO  [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-02 02:03:30 INFO  [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-01-02 02:06:35 INFO  [main] c.c.testapi.testapi.ControllerTest - Starting ControllerTest using Java 17.0.13 with PID 11428 (started by Marco in C:\Users\Marco\Desktop\testapi)
+2025-01-02 02:06:35 INFO  [main] c.c.testapi.testapi.ControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-01-02 02:06:37 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 0 (http)
+2025-01-02 02:06:37 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-auto-1"]
+2025-01-02 02:06:37 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-02 02:06:37 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-02 02:06:37 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-02 02:06:37 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1837 ms
+2025-01-02 02:06:39 INFO  [main] o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-01-02 02:06:39 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring TestDispatcherServlet ''
+2025-01-02 02:06:39 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-01-02 02:06:39 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2025-01-02 02:06:40 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-auto-1"]
+2025-01-02 02:06:40 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 53390 (http) with context path '/'
+2025-01-02 02:06:40 INFO  [main] c.c.testapi.testapi.ControllerTest - Started ControllerTest in 4.858 seconds (process running for 6.876)
+2025-01-02 02:06:40 INFO  [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-02 02:06:40 INFO  [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-01-02 02:06:54 INFO  [main] c.c.testapi.testapi.ControllerTest - Starting ControllerTest using Java 17.0.13 with PID 35780 (started by Marco in C:\Users\Marco\Desktop\testapi)
+2025-01-02 02:06:54 INFO  [main] c.c.testapi.testapi.ControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-01-02 02:06:56 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 0 (http)
+2025-01-02 02:06:56 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-auto-1"]
+2025-01-02 02:06:56 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-02 02:06:56 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-02 02:06:56 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-02 02:06:56 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1984 ms
+2025-01-02 02:06:58 INFO  [main] o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-01-02 02:06:58 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring TestDispatcherServlet ''
+2025-01-02 02:06:58 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-01-02 02:06:58 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2025-01-02 02:06:58 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-auto-1"]
+2025-01-02 02:06:59 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 53409 (http) with context path '/'
+2025-01-02 02:06:59 INFO  [main] c.c.testapi.testapi.ControllerTest - Started ControllerTest in 5.195 seconds (process running for 7.33)
+2025-01-02 02:06:59 INFO  [main] c.c.t.service.ClientProductService - Iniciando búsqueda: 123
+2025-01-02 02:06:59 INFO  [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-02 02:06:59 INFO  [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-01-02 02:14:31 INFO  [main] c.c.testapi.testapi.ControllerTest - Starting ControllerTest using Java 17.0.13 with PID 16516 (started by Marco in C:\Users\Marco\Desktop\testapi)
+2025-01-02 02:14:31 INFO  [main] c.c.testapi.testapi.ControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-01-02 02:14:33 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 0 (http)
+2025-01-02 02:14:33 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-auto-1"]
+2025-01-02 02:14:33 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-02 02:14:33 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-02 02:14:33 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-02 02:14:33 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1964 ms
+2025-01-02 02:14:34 INFO  [main] o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-01-02 02:14:35 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring TestDispatcherServlet ''
+2025-01-02 02:14:35 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-01-02 02:14:35 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2025-01-02 02:14:35 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-auto-1"]
+2025-01-02 02:14:35 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 53649 (http) with context path '/'
+2025-01-02 02:14:35 INFO  [main] c.c.testapi.testapi.ControllerTest - Started ControllerTest in 5.092 seconds (process running for 7.275)
+2025-01-02 02:14:36 INFO  [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-02 02:14:36 INFO  [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-01-02 02:15:34 INFO  [main] c.c.testapi.testapi.ControllerTest - Starting ControllerTest using Java 17.0.13 with PID 2828 (started by Marco in C:\Users\Marco\Desktop\testapi)
+2025-01-02 02:15:34 INFO  [main] c.c.testapi.testapi.ControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-01-02 02:15:36 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 0 (http)
+2025-01-02 02:15:36 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-auto-1"]
+2025-01-02 02:15:36 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-02 02:15:36 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-02 02:15:36 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-02 02:15:36 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2042 ms
+2025-01-02 02:15:37 INFO  [main] o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-01-02 02:15:38 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring TestDispatcherServlet ''
+2025-01-02 02:15:38 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-01-02 02:15:38 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2025-01-02 02:15:38 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-auto-1"]
+2025-01-02 02:15:38 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 53710 (http) with context path '/'
+2025-01-02 02:15:38 INFO  [main] c.c.testapi.testapi.ControllerTest - Started ControllerTest in 5.047 seconds (process running for 7.112)
+2025-01-02 02:15:38 INFO  [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-02 02:15:38 INFO  [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-01-02 02:16:35 INFO  [main] c.c.testapi.testapi.ControllerTest - Starting ControllerTest using Java 17.0.13 with PID 27660 (started by Marco in C:\Users\Marco\Desktop\testapi)
+2025-01-02 02:16:35 INFO  [main] c.c.testapi.testapi.ControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-01-02 02:16:37 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 0 (http)
+2025-01-02 02:16:37 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-auto-1"]
+2025-01-02 02:16:37 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-02 02:16:37 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-02 02:16:37 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-02 02:16:37 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1873 ms
+2025-01-02 02:16:38 INFO  [main] o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-01-02 02:16:39 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring TestDispatcherServlet ''
+2025-01-02 02:16:39 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-01-02 02:16:39 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2025-01-02 02:16:39 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-auto-1"]
+2025-01-02 02:16:39 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 53767 (http) with context path '/'
+2025-01-02 02:16:39 INFO  [main] c.c.testapi.testapi.ControllerTest - Started ControllerTest in 4.958 seconds (process running for 7.094)
+2025-01-02 02:16:39 INFO  [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-02 02:16:40 INFO  [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-01-02 02:17:48 INFO  [main] c.c.testapi.testapi.ControllerTest - Starting ControllerTest using Java 17.0.13 with PID 36236 (started by Marco in C:\Users\Marco\Desktop\testapi)
+2025-01-02 02:17:48 INFO  [main] c.c.testapi.testapi.ControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-01-02 02:17:49 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 0 (http)
+2025-01-02 02:17:49 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-auto-1"]
+2025-01-02 02:17:49 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-02 02:17:49 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-02 02:17:50 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-02 02:17:50 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1832 ms
+2025-01-02 02:17:51 INFO  [main] o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-01-02 02:17:51 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring TestDispatcherServlet ''
+2025-01-02 02:17:51 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-01-02 02:17:51 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2025-01-02 02:17:52 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-auto-1"]
+2025-01-02 02:17:52 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 53807 (http) with context path '/'
+2025-01-02 02:17:52 INFO  [main] c.c.testapi.testapi.ControllerTest - Started ControllerTest in 4.809 seconds (process running for 6.936)
+2025-01-02 02:17:52 INFO  [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-02 02:17:52 INFO  [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-01-02 02:18:03 INFO  [main] c.c.testapi.testapi.ControllerTest - Starting ControllerTest using Java 17.0.13 with PID 17276 (started by Marco in C:\Users\Marco\Desktop\testapi)
+2025-01-02 02:18:03 INFO  [main] c.c.testapi.testapi.ControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-01-02 02:18:04 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 0 (http)
+2025-01-02 02:18:05 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-auto-1"]
+2025-01-02 02:18:05 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-02 02:18:05 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-02 02:18:05 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-02 02:18:05 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1873 ms
+2025-01-02 02:18:06 INFO  [main] o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-01-02 02:18:06 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring TestDispatcherServlet ''
+2025-01-02 02:18:06 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-01-02 02:18:06 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2025-01-02 02:18:07 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-auto-1"]
+2025-01-02 02:18:07 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 53827 (http) with context path '/'
+2025-01-02 02:18:07 INFO  [main] c.c.testapi.testapi.ControllerTest - Started ControllerTest in 4.794 seconds (process running for 6.876)
+2025-01-02 02:18:07 INFO  [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-02 02:18:07 INFO  [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-01-02 02:18:52 INFO  [main] c.c.testapi.testapi.ControllerTest - Starting ControllerTest using Java 17.0.13 with PID 1032 (started by Marco in C:\Users\Marco\Desktop\testapi)
+2025-01-02 02:18:52 INFO  [main] c.c.testapi.testapi.ControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-01-02 02:18:54 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 0 (http)
+2025-01-02 02:18:54 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-auto-1"]
+2025-01-02 02:18:54 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-02 02:18:54 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-02 02:18:54 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-02 02:18:54 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1837 ms
+2025-01-02 02:18:55 INFO  [main] o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-01-02 02:18:56 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring TestDispatcherServlet ''
+2025-01-02 02:18:56 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-01-02 02:18:56 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2025-01-02 02:18:56 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-auto-1"]
+2025-01-02 02:18:56 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 53858 (http) with context path '/'
+2025-01-02 02:18:56 INFO  [main] c.c.testapi.testapi.ControllerTest - Started ControllerTest in 4.795 seconds (process running for 6.846)
+2025-01-02 02:18:56 INFO  [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-02 02:18:57 INFO  [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-01-02 02:19:55 INFO  [restartedMain] c.cortez.testapi.TestapiApplication - Starting TestapiApplication using Java 17.0.13 with PID 5516 (C:\Users\Marco\Desktop\testapi\target\classes started by Marco in C:\Users\Marco\Desktop\testapi)
+2025-01-02 02:19:55 INFO  [restartedMain] c.cortez.testapi.TestapiApplication - No active profile set, falling back to 1 default profile: "default"
+2025-01-02 02:19:55 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-01-02 02:19:55 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-01-02 02:19:56 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 7000 (http)
+2025-01-02 02:19:56 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-7000"]
+2025-01-02 02:19:56 INFO  [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-02 02:19:56 INFO  [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-02 02:19:56 INFO  [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-02 02:19:56 INFO  [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1458 ms
+2025-01-02 02:19:57 INFO  [restartedMain] o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-01-02 02:19:58 INFO  [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-01-02 02:19:58 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-7000"]
+2025-01-02 02:19:58 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 7000 (http) with context path '/'
+2025-01-02 02:19:58 INFO  [restartedMain] c.cortez.testapi.TestapiApplication - Started TestapiApplication in 4.193 seconds (process running for 4.755)
+2025-01-02 02:21:24 INFO  [http-nio-7000-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-02 02:21:24 INFO  [http-nio-7000-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-01-02 02:21:24 INFO  [http-nio-7000-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-01-02 02:21:36 INFO  [main] c.c.testapi.testapi.ControllerTest - Starting ControllerTest using Java 17.0.13 with PID 11344 (started by Marco in C:\Users\Marco\Desktop\testapi)
+2025-01-02 02:21:36 INFO  [main] c.c.testapi.testapi.ControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-01-02 02:21:38 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 0 (http)
+2025-01-02 02:21:38 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-auto-1"]
+2025-01-02 02:21:38 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-02 02:21:38 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-02 02:21:38 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-02 02:21:38 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1869 ms
+2025-01-02 02:21:39 INFO  [main] o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-01-02 02:21:40 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring TestDispatcherServlet ''
+2025-01-02 02:21:40 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-01-02 02:21:40 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2025-01-02 02:21:40 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-auto-1"]
+2025-01-02 02:21:40 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 54004 (http) with context path '/'
+2025-01-02 02:21:40 INFO  [main] c.c.testapi.testapi.ControllerTest - Started ControllerTest in 4.994 seconds (process running for 7.118)
+2025-01-02 02:21:40 INFO  [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-02 02:21:41 INFO  [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-01-02 02:24:29 INFO  [http-nio-7000-exec-2] o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 222 ms
+2025-01-02 02:24:50 INFO  [http-nio-7000-exec-3] c.c.t.service.ClientProductService - Iniciando búsqueda: 2POIebdCS7yxe3Xxvrm5dg==
+2025-01-02 02:24:50 INFO  [reactor-http-nio-2] c.c.t.service.ClientProductService - Lista de productos obtenida para cliente: 2POIebdCS7yxe3Xxvrm5dg==, Request-ID: 38038579-9bd7-42d0-b1df-619e3274263c
+2025-01-02 02:24:50 INFO  [reactor-http-nio-3] c.c.t.service.ClientProductService - Respuesta generada: 2POIebdCS7yxe3Xxvrm5dg==
+2025-01-02 02:26:40 INFO  [main] c.c.testapi.testapi.ControllerTest - Starting ControllerTest using Java 17.0.13 with PID 38780 (started by Marco in C:\Users\Marco\Desktop\testapi)
+2025-01-02 02:26:40 INFO  [main] c.c.testapi.testapi.ControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-01-02 02:26:41 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 0 (http)
+2025-01-02 02:26:41 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-auto-1"]
+2025-01-02 02:26:41 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-02 02:26:41 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-02 02:26:42 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-02 02:26:42 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1953 ms
+2025-01-02 02:26:43 INFO  [main] o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-01-02 02:26:43 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring TestDispatcherServlet ''
+2025-01-02 02:26:43 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-01-02 02:26:43 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2025-01-02 02:26:44 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-auto-1"]
+2025-01-02 02:26:44 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 54206 (http) with context path '/'
+2025-01-02 02:26:44 INFO  [main] c.c.testapi.testapi.ControllerTest - Started ControllerTest in 4.957 seconds (process running for 6.962)
+2025-01-02 02:26:44 INFO  [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-02 02:26:44 INFO  [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-01-02 02:27:07 INFO  [main] c.c.testapi.testapi.ControllerTest - Starting ControllerTest using Java 17.0.13 with PID 19728 (started by Marco in C:\Users\Marco\Desktop\testapi)
+2025-01-02 02:27:07 INFO  [main] c.c.testapi.testapi.ControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-01-02 02:27:09 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 0 (http)
+2025-01-02 02:27:09 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-auto-1"]
+2025-01-02 02:27:09 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-02 02:27:09 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-02 02:27:09 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-02 02:27:09 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1982 ms
+2025-01-02 02:27:10 INFO  [main] o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-01-02 02:27:11 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring TestDispatcherServlet ''
+2025-01-02 02:27:11 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-01-02 02:27:11 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+2025-01-02 02:27:11 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-auto-1"]
+2025-01-02 02:27:11 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 54233 (http) with context path '/'
+2025-01-02 02:27:11 INFO  [main] c.c.testapi.testapi.ControllerTest - Started ControllerTest in 4.889 seconds (process running for 7.004)
+2025-01-02 02:27:11 INFO  [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-02 02:27:11 INFO  [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-01-02 02:27:37 INFO  [File Watcher] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 12 class path changes (0 additions, 11 deletions, 1 modification)
+2025-01-02 02:27:37 INFO  [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-02 02:27:37 INFO  [tomcat-shutdown] o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-7000"]
+2025-01-02 02:27:38 INFO  [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-01-02 02:27:38 INFO  [Thread-5] o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-7000"]
+2025-01-02 02:27:38 INFO  [restartedMain] c.cortez.testapi.TestapiApplication - Starting TestapiApplication using Java 17.0.13 with PID 5516 (C:\Users\Marco\Desktop\testapi\target\classes started by Marco in C:\Users\Marco\Desktop\testapi)
+2025-01-02 02:27:38 INFO  [restartedMain] c.cortez.testapi.TestapiApplication - No active profile set, falling back to 1 default profile: "default"
+2025-01-02 02:27:38 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 7000 (http)
+2025-01-02 02:27:38 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-7000"]
+2025-01-02 02:27:38 INFO  [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-02 02:27:38 INFO  [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-02 02:27:38 INFO  [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-02 02:27:38 INFO  [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 570 ms
+2025-01-02 02:27:39 INFO  [restartedMain] o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-01-02 02:27:39 INFO  [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-01-02 02:27:39 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-7000"]
+2025-01-02 02:27:39 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 7000 (http) with context path '/'
+2025-01-02 02:27:39 INFO  [restartedMain] c.cortez.testapi.TestapiApplication - Started TestapiApplication in 1.065 seconds (process running for 465.208)
+2025-01-02 02:27:39 INFO  [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-01-02 02:27:40 INFO  [File Watcher] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 11 class path changes (11 additions, 0 deletions, 0 modifications)
+2025-01-02 02:27:40 INFO  [Thread-24] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-02 02:27:40 INFO  [tomcat-shutdown] o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-7000"]
+2025-01-02 02:27:41 INFO  [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-01-02 02:27:41 INFO  [Thread-24] o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-7000"]
+2025-01-02 02:27:41 INFO  [restartedMain] c.cortez.testapi.TestapiApplication - Starting TestapiApplication using Java 17.0.13 with PID 5516 (C:\Users\Marco\Desktop\testapi\target\classes started by Marco in C:\Users\Marco\Desktop\testapi)
+2025-01-02 02:27:41 INFO  [restartedMain] c.cortez.testapi.TestapiApplication - No active profile set, falling back to 1 default profile: "default"
+2025-01-02 02:27:41 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 7000 (http)
+2025-01-02 02:27:41 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-7000"]
+2025-01-02 02:27:41 INFO  [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-02 02:27:41 INFO  [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-02 02:27:41 INFO  [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-02 02:27:41 INFO  [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 545 ms
+2025-01-02 02:27:41 INFO  [restartedMain] o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-01-02 02:27:41 INFO  [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-01-02 02:27:42 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-7000"]
+2025-01-02 02:27:42 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 7000 (http) with context path '/'
+2025-01-02 02:27:42 INFO  [restartedMain] c.cortez.testapi.TestapiApplication - Started TestapiApplication in 0.871 seconds (process running for 467.913)
+2025-01-02 02:27:42 INFO  [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-01-02 02:27:43 INFO  [main] c.c.testapi.testapi.ControllerTest - Starting ControllerTest using Java 21.0.2 with PID 38112 (started by Marco in C:\Users\Marco\Desktop\testapi)
+2025-01-02 02:27:43 INFO  [main] c.c.testapi.testapi.ControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-01-02 02:27:45 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 0 (http)
+2025-01-02 02:27:45 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-auto-1"]
+2025-01-02 02:27:45 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-02 02:27:45 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-02 02:27:45 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-02 02:27:45 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1870 ms
+2025-01-02 02:27:46 INFO  [main] o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-01-02 02:27:46 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring TestDispatcherServlet ''
+2025-01-02 02:27:46 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-01-02 02:27:46 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2025-01-02 02:27:47 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-auto-1"]
+2025-01-02 02:27:47 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 54256 (http) with context path '/'
+2025-01-02 02:27:47 INFO  [main] c.c.testapi.testapi.ControllerTest - Started ControllerTest in 4.294 seconds (process running for 6.543)
+2025-01-02 02:27:47 INFO  [main] c.c.t.service.ClientProductService - Iniciando búsqueda: 12345
+2025-01-02 02:27:47 INFO  [main] c.c.t.service.ClientProductService - Lista de productos obtenida para cliente: 12345, Request-ID: request-id-123
+2025-01-02 02:27:47 INFO  [main] c.c.t.service.ClientProductService - Respuesta generada: 12345
+2025-01-02 02:27:47 INFO  [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-02 02:27:47 INFO  [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-01-02 02:56:00 INFO  [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-02 02:56:00 INFO  [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-01-02 03:00:55 INFO  [restartedMain] c.cortez.testapi.TestapiApplication - Starting TestapiApplication using Java 17.0.13 with PID 37544 (C:\Users\Marco\Desktop\testapi\target\classes started by Marco in C:\Users\Marco\Desktop\testapi)
+2025-01-02 03:00:55 INFO  [restartedMain] c.cortez.testapi.TestapiApplication - No active profile set, falling back to 1 default profile: "default"
+2025-01-02 03:00:55 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-01-02 03:00:55 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-01-02 03:00:57 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 7000 (http)
+2025-01-02 03:00:57 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-7000"]
+2025-01-02 03:00:57 INFO  [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-02 03:00:57 INFO  [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-02 03:00:57 INFO  [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-02 03:00:57 INFO  [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1522 ms
+2025-01-02 03:00:58 INFO  [restartedMain] o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-01-02 03:00:59 INFO  [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-01-02 03:00:59 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-7000"]
+2025-01-02 03:00:59 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 7000 (http) with context path '/'
+2025-01-02 03:00:59 INFO  [restartedMain] c.cortez.testapi.TestapiApplication - Started TestapiApplication in 4.2 seconds (process running for 4.818)
+2025-01-02 03:01:03 INFO  [http-nio-7000-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-02 03:01:03 INFO  [http-nio-7000-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-01-02 03:01:03 INFO  [http-nio-7000-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-01-02 03:01:03 INFO  [http-nio-7000-exec-1] c.c.t.service.ClientProductService - Iniciando búsqueda: 2POIebdCS7yxe3Xxvrm5dg==
+2025-01-02 03:01:03 INFO  [reactor-http-nio-2] c.c.t.service.ClientProductService - Lista de productos obtenida para cliente: 2POIebdCS7yxe3Xxvrm5dg==, Request-ID: 3cd03c97-a480-4a95-8036-fcc4bd0adc5f
+2025-01-02 03:01:03 INFO  [reactor-http-nio-3] c.c.t.service.ClientProductService - Respuesta generada: 2POIebdCS7yxe3Xxvrm5dg==
+2025-01-02 03:01:12 INFO  [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-02 03:01:12 INFO  [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-01-02 03:04:20 INFO  [restartedMain] c.cortez.testapi.TestapiApplication - Starting TestapiApplication using Java 17.0.13 with PID 26836 (C:\Users\Marco\Desktop\testapi\target\classes started by Marco in C:\Users\Marco\Desktop\testapi)
+2025-01-02 03:04:20 INFO  [restartedMain] c.cortez.testapi.TestapiApplication - No active profile set, falling back to 1 default profile: "default"
+2025-01-02 03:04:20 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-01-02 03:04:20 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-01-02 03:04:22 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 7000 (http)
+2025-01-02 03:04:22 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-7000"]
+2025-01-02 03:04:22 INFO  [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-02 03:04:22 INFO  [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-02 03:04:22 INFO  [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-02 03:04:22 INFO  [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1566 ms
+2025-01-02 03:04:23 INFO  [restartedMain] o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-01-02 03:04:23 INFO  [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-01-02 03:04:24 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-7000"]
+2025-01-02 03:04:24 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 7000 (http) with context path '/'
+2025-01-02 03:04:24 INFO  [restartedMain] c.cortez.testapi.TestapiApplication - Started TestapiApplication in 4.327 seconds (process running for 4.911)
+2025-01-02 03:04:44 INFO  [http-nio-7000-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-02 03:04:44 INFO  [http-nio-7000-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-01-02 03:04:44 INFO  [http-nio-7000-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2025-01-02 03:04:44 ERROR [http-nio-7000-exec-1] o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+org.springframework.security.oauth2.jwt.JwtDecoderInitializationException: Failed to lazily resolve the supplied JwtDecoder instance
+	at org.springframework.security.oauth2.jwt.SupplierJwtDecoder.wrapException(SupplierJwtDecoder.java:53)
+	at org.springframework.security.oauth2.jwt.SupplierJwtDecoder.lambda$new$0(SupplierJwtDecoder.java:39)
+	at org.springframework.util.function.SingletonSupplier.get(SingletonSupplier.java:106)
+	at org.springframework.security.oauth2.jwt.SupplierJwtDecoder.decode(SupplierJwtDecoder.java:49)
+	at org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationProvider.getJwt(JwtAuthenticationProvider.java:99)
+	at org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationProvider.authenticate(JwtAuthenticationProvider.java:88)
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:182)
+	at org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter.doFilterInternal(BearerTokenAuthenticationFilter.java:137)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.csrf.CsrfFilter.doFilterInternal(CsrfFilter.java:117)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$3(HandlerMappingIntrospector.java:243)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74)
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:238)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:362)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:278)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.IllegalArgumentException: Unable to resolve the Configuration with the provided Issuer of "http://127.0.0.1:5000"
+	at org.springframework.security.oauth2.jwt.JwtDecoderProviderConfigurationUtils.getConfiguration(JwtDecoderProviderConfigurationUtils.java:178)
+	at org.springframework.security.oauth2.jwt.JwtDecoderProviderConfigurationUtils.getConfigurationForIssuerLocation(JwtDecoderProviderConfigurationUtils.java:90)
+	at org.springframework.security.oauth2.jwt.NimbusJwtDecoder.lambda$withIssuerLocation$2(NimbusJwtDecoder.java:226)
+	at org.springframework.security.oauth2.jwt.NimbusJwtDecoder$JwkSetUriJwtDecoderBuilder.processor(NimbusJwtDecoder.java:389)
+	at org.springframework.security.oauth2.jwt.NimbusJwtDecoder$JwkSetUriJwtDecoderBuilder.build(NimbusJwtDecoder.java:405)
+	at org.springframework.boot.autoconfigure.security.oauth2.resource.servlet.OAuth2ResourceServerJwtConfiguration$JwtDecoderConfiguration.lambda$jwtDecoderByIssuerUri$3(OAuth2ResourceServerJwtConfiguration.java:166)
+	at org.springframework.security.oauth2.jwt.SupplierJwtDecoder.lambda$new$0(SupplierJwtDecoder.java:36)
+	... 66 common frames omitted
+Caused by: org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://127.0.0.1:5000/.well-known/openid-configuration": Connection refused: connect
+	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:926)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:906)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:751)
+	at org.springframework.security.oauth2.jwt.JwtDecoderProviderConfigurationUtils.getConfiguration(JwtDecoderProviderConfigurationUtils.java:167)
+	... 72 common frames omitted
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Unknown Source)
+	at java.base/sun.nio.ch.Net.connect(Unknown Source)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(Unknown Source)
+	at java.base/java.net.Socket.connect(Unknown Source)
+	at java.base/java.net.Socket.connect(Unknown Source)
+	at java.base/sun.net.NetworkClient.doConnect(Unknown Source)
+	at java.base/sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at java.base/sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at java.base/sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at java.base/sun.net.www.http.HttpClient.New(Unknown Source)
+	at java.base/sun.net.www.http.HttpClient.New(Unknown Source)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at org.springframework.http.client.SimpleClientHttpRequest.executeInternal(SimpleClientHttpRequest.java:79)
+	at org.springframework.http.client.AbstractStreamingClientHttpRequest.executeInternal(AbstractStreamingClientHttpRequest.java:71)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:81)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:900)
+	... 74 common frames omitted
+2025-01-02 07:07:06 INFO  [restartedMain] c.cortez.testapi.TestapiApplication - Starting TestapiApplication using Java 17.0.13 with PID 36396 (C:\Users\Marco\Desktop\testapi\target\classes started by Marco in C:\Users\Marco\Desktop\testapi)
+2025-01-02 07:07:06 INFO  [restartedMain] c.cortez.testapi.TestapiApplication - No active profile set, falling back to 1 default profile: "default"
+2025-01-02 07:07:06 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-01-02 07:07:06 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-01-02 07:07:08 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 7000 (http)
+2025-01-02 07:07:08 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-7000"]
+2025-01-02 07:07:08 INFO  [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-02 07:07:08 INFO  [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-02 07:07:08 INFO  [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-02 07:07:08 INFO  [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1581 ms
+2025-01-02 07:07:09 INFO  [restartedMain] o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-01-02 07:07:09 INFO  [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-01-02 07:07:10 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-7000"]
+2025-01-02 07:07:10 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 7000 (http) with context path '/'
+2025-01-02 07:07:10 INFO  [restartedMain] c.cortez.testapi.TestapiApplication - Started TestapiApplication in 4.411 seconds (process running for 5.037)
+2025-01-02 10:41:05 INFO  [restartedMain] c.cortez.testapi.TestapiApplication - Starting TestapiApplication using Java 17.0.13 with PID 3052 (C:\Users\Marco\Desktop\testapi\target\classes started by Marco in C:\Users\Marco\Desktop\testapi)
+2025-01-02 10:41:05 INFO  [restartedMain] c.cortez.testapi.TestapiApplication - No active profile set, falling back to 1 default profile: "default"
+2025-01-02 10:41:05 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-01-02 10:41:05 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-01-02 10:41:06 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 7000 (http)
+2025-01-02 10:41:06 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-7000"]
+2025-01-02 10:41:06 INFO  [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-02 10:41:06 INFO  [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-02 10:41:06 INFO  [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-02 10:41:06 INFO  [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1439 ms
+2025-01-02 10:41:07 INFO  [restartedMain] o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-01-02 10:41:08 WARN  [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2025-01-02 10:41:09 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-7000"]
+2025-01-02 10:41:09 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 7000 (http) with context path '/'
+2025-01-02 10:41:09 INFO  [restartedMain] c.cortez.testapi.TestapiApplication - Started TestapiApplication in 4.29 seconds (process running for 4.9)
+2025-01-02 11:01:50 INFO  [http-nio-7000-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-02 11:01:50 INFO  [http-nio-7000-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-01-02 11:01:50 INFO  [http-nio-7000-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-01-02 11:01:50 INFO  [http-nio-7000-exec-1] c.c.t.service.ClientProductService - Iniciando búsqueda: 2POIebdCS7yxe3Xxvrm5dg==
+2025-01-02 11:01:50 ERROR [reactor-http-nio-2] c.c.t.service.ClientProductService - Error al generar respuesta para 2POIebdCS7yxe3Xxvrm5dg==: Connection refused: getsockopt: /127.0.0.1:3000
+2025-01-02 11:01:50 ERROR [http-nio-7000-exec-2] o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] threw exception
+java.net.ConnectException: Connection refused: getsockopt
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Unknown Source)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:336)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:339)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:776)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2025-01-02 11:01:50 ERROR [http-nio-7000-exec-2] o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.web.reactive.function.client.WebClientRequestException: Connection refused: getsockopt: /127.0.0.1:3000] with root cause
+java.net.ConnectException: Connection refused: getsockopt
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Unknown Source)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:336)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:339)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:776)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2025-01-02 11:03:43 INFO  [http-nio-7000-exec-3] c.c.t.service.ClientProductService - Iniciando búsqueda: 2POIebdCS7yxe3Xxvrm5dg==
+2025-01-02 11:03:43 INFO  [reactor-http-nio-4] c.c.t.service.ClientProductService - Lista de productos obtenida para cliente: 2POIebdCS7yxe3Xxvrm5dg==, Request-ID: fba3a420-e15d-47b1-a28a-1c82a2d5a1d2
+2025-01-02 11:03:43 INFO  [reactor-http-nio-5] c.c.t.service.ClientProductService - Respuesta generada: 2POIebdCS7yxe3Xxvrm5dg==

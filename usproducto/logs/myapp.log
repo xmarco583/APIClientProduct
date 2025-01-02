@@ -1,0 +1,75 @@
+2025-01-02 08:37:58 INFO  [main] c.c.usproducto.UsproductoApplication - Starting UsproductoApplication using Java 17.0.13 with PID 25004 (C:\Users\Marco\Desktop\usproducto\target\classes started by Marco in C:\Users\Marco\Desktop\usproducto)
+2025-01-02 08:37:58 INFO  [main] c.c.usproducto.UsproductoApplication - No active profile set, falling back to 1 default profile: "default"
+2025-01-02 08:37:59 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2025-01-02 08:37:59 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 124 ms. Found 1 R2DBC repository interface.
+2025-01-02 08:38:00 INFO  [main] o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-01-02 08:38:01 INFO  [main] o.s.b.w.e.netty.NettyWebServer - Netty started on port 4000 (http)
+2025-01-02 08:38:01 INFO  [main] c.c.usproducto.UsproductoApplication - Started UsproductoApplication in 3.364 seconds (process running for 3.724)
+2025-01-02 08:38:06 INFO  [reactor-http-nio-2] o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 297 ms
+2025-01-02 08:39:53 INFO  [main] c.c.usproducto.UsproductoApplication - Starting UsproductoApplication using Java 17.0.13 with PID 29988 (C:\Users\Marco\Desktop\usproducto\target\classes started by Marco in C:\Users\Marco\Desktop\usproducto)
+2025-01-02 08:39:53 INFO  [main] c.c.usproducto.UsproductoApplication - No active profile set, falling back to 1 default profile: "default"
+2025-01-02 08:39:54 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2025-01-02 08:39:54 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 126 ms. Found 1 R2DBC repository interface.
+2025-01-02 08:39:55 INFO  [main] o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-01-02 08:39:56 INFO  [main] o.s.b.w.e.netty.NettyWebServer - Netty started on port 4000 (http)
+2025-01-02 08:39:56 INFO  [main] c.c.usproducto.UsproductoApplication - Started UsproductoApplication in 3.569 seconds (process running for 4.007)
+2025-01-02 08:40:03 INFO  [reactor-http-nio-2] o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 503 ms
+2025-01-02 08:40:50 INFO  [main] c.c.usproducto.UsproductoApplication - Starting UsproductoApplication using Java 17.0.13 with PID 37192 (C:\Users\Marco\Desktop\usproducto\target\classes started by Marco in C:\Users\Marco\Desktop\usproducto)
+2025-01-02 08:40:50 INFO  [main] c.c.usproducto.UsproductoApplication - No active profile set, falling back to 1 default profile: "default"
+2025-01-02 08:40:51 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2025-01-02 08:40:51 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 136 ms. Found 1 R2DBC repository interface.
+2025-01-02 08:40:52 INFO  [main] o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-01-02 08:40:53 INFO  [main] o.s.b.w.e.netty.NettyWebServer - Netty started on port 4000 (http)
+2025-01-02 08:40:53 INFO  [main] c.c.usproducto.UsproductoApplication - Started UsproductoApplication in 3.535 seconds (process running for 3.889)
+2025-01-02 08:41:06 INFO  [main] c.c.usproducto.UsproductoApplication - Starting UsproductoApplication using Java 17.0.13 with PID 34456 (C:\Users\Marco\Desktop\usproducto\target\classes started by Marco in C:\Users\Marco\Desktop\usproducto)
+2025-01-02 08:41:06 INFO  [main] c.c.usproducto.UsproductoApplication - No active profile set, falling back to 1 default profile: "default"
+2025-01-02 08:41:07 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2025-01-02 08:41:07 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 143 ms. Found 1 R2DBC repository interface.
+2025-01-02 08:41:08 INFO  [main] o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-01-02 08:41:09 INFO  [main] o.s.b.w.e.netty.NettyWebServer - Netty started on port 4000 (http)
+2025-01-02 08:41:09 INFO  [main] c.c.usproducto.UsproductoApplication - Started UsproductoApplication in 3.257 seconds (process running for 3.646)
+2025-01-02 08:41:11 INFO  [reactor-http-nio-2] o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 484 ms
+2025-01-02 08:41:24 INFO  [reactor-http-nio-2] c.c.u.controller.ProductController - Iniciando búsqueda de productos para cliente: 124
+2025-01-02 08:41:24 INFO  [reactor-tcp-nio-2] c.c.u.controller.ProductController - Request-ID: sdaf
+2025-01-02 08:42:09 INFO  [main] c.c.usproducto.test.ControllerTest - Starting ControllerTest using Java 21.0.2 with PID 8568 (started by Marco in C:\Users\Marco\Desktop\usproducto)
+2025-01-02 08:42:09 INFO  [main] c.c.usproducto.test.ControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-01-02 08:42:10 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2025-01-02 08:42:10 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 122 ms. Found 1 R2DBC repository interface.
+2025-01-02 08:42:12 INFO  [main] o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-01-02 08:42:13 INFO  [main] o.s.b.w.e.netty.NettyWebServer - Netty started on port 59738 (http)
+2025-01-02 08:42:13 INFO  [main] c.c.usproducto.test.ControllerTest - Started ControllerTest in 4.224 seconds (process running for 6.018)
+2025-01-02 08:42:13 INFO  [parallel-2] c.c.u.controller.ProductController - Iniciando búsqueda de productos para cliente: 999
+2025-01-02 08:42:14 ERROR [reactor-tcp-nio-2] c.c.u.controller.ProductController - Error al buscar productos del cliente 999: 404 NOT_FOUND "Productos no encontrados"
+2025-01-02 08:42:14 INFO  [parallel-3] c.c.u.controller.ProductController - Iniciando búsqueda de productos para cliente: 124
+2025-01-02 08:42:14 INFO  [main] c.c.u.controller.ProductController - Request-ID: test-request-id
+2025-01-02 08:42:14 INFO  [main] o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.cortez.usproducto.UsproductoApplicationTests]: UsproductoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-01-02 08:42:14 INFO  [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.cortez.usproducto.UsproductoApplication for test class com.cortez.usproducto.UsproductoApplicationTests
+2025-01-02 08:42:14 INFO  [main] c.c.u.UsproductoApplicationTests - Starting UsproductoApplicationTests using Java 21.0.2 with PID 8568 (started by Marco in C:\Users\Marco\Desktop\usproducto)
+2025-01-02 08:42:14 INFO  [main] c.c.u.UsproductoApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-01-02 08:42:14 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2025-01-02 08:42:14 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 1 R2DBC repository interface.
+2025-01-02 08:42:14 INFO  [main] o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-01-02 08:42:14 INFO  [main] c.c.u.UsproductoApplicationTests - Started UsproductoApplicationTests in 0.389 seconds (process running for 7.503)
+2025-01-02 08:42:14 INFO  [SpringApplicationShutdownHook] o.s.b.w.e.netty.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-02 08:42:14 INFO  [netty-shutdown] o.s.b.w.e.netty.GracefulShutdown - Graceful shutdown complete
+2025-01-02 10:15:18 INFO  [main] c.c.usproducto.UsproductoApplication - Starting UsproductoApplication using Java 17.0.13 with PID 9484 (C:\Users\Marco\Desktop\usproducto\target\classes started by Marco in C:\Users\Marco\Desktop\usproducto)
+2025-01-02 10:15:18 INFO  [main] c.c.usproducto.UsproductoApplication - No active profile set, falling back to 1 default profile: "default"
+2025-01-02 10:15:19 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2025-01-02 10:15:19 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 184 ms. Found 1 R2DBC repository interface.
+2025-01-02 10:15:20 INFO  [main] o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-01-02 10:15:21 INFO  [main] o.s.b.w.e.netty.NettyWebServer - Netty started on port 4000 (http)
+2025-01-02 10:15:21 INFO  [main] c.c.usproducto.UsproductoApplication - Started UsproductoApplication in 3.696 seconds (process running for 4.205)
+2025-01-02 10:15:31 INFO  [reactor-http-nio-2] o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 363 ms
+2025-01-02 10:15:39 INFO  [reactor-http-nio-2] c.c.u.controller.ProductController - Iniciando búsqueda de productos para cliente: 124
+2025-01-02 10:15:40 INFO  [reactor-tcp-nio-2] c.c.u.controller.ProductController - Request-ID: dsf
+2025-01-02 11:03:33 INFO  [main] c.c.usproducto.UsproductoApplication - Starting UsproductoApplication using Java 17.0.13 with PID 31768 (C:\Users\Marco\Desktop\usproducto\target\classes started by Marco in C:\Users\Marco\Desktop\usproducto)
+2025-01-02 11:03:33 INFO  [main] c.c.usproducto.UsproductoApplication - No active profile set, falling back to 1 default profile: "default"
+2025-01-02 11:03:34 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2025-01-02 11:03:34 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 154 ms. Found 1 R2DBC repository interface.
+2025-01-02 11:03:35 INFO  [main] o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-01-02 11:03:37 INFO  [main] o.s.b.w.e.netty.NettyWebServer - Netty started on port 4000 (http)
+2025-01-02 11:03:37 INFO  [main] c.c.usproducto.UsproductoApplication - Started UsproductoApplication in 4.007 seconds (process running for 4.549)
+2025-01-02 11:03:40 INFO  [reactor-http-nio-2] c.c.u.controller.ProductController - Iniciando búsqueda de productos para cliente: 124
+2025-01-02 11:03:41 INFO  [reactor-tcp-nio-2] c.c.u.controller.ProductController - Request-ID: 45334dv
+2025-01-02 11:03:43 INFO  [reactor-http-nio-3] c.c.u.controller.ProductController - Iniciando búsqueda de productos para cliente: 124
+2025-01-02 11:03:43 INFO  [reactor-tcp-nio-11] c.c.u.controller.ProductController - Request-ID: fba3a420-e15d-47b1-a28a-1c82a2d5a1d2
