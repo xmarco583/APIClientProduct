@@ -10,7 +10,6 @@ Este proyecto consiste en la creación de una API que devuelve información del 
 - Encriptación del valor **codigoUnico**.
 - Integración de microservicios para cliente y productos financieros.
 - Uso de patrones de diseño y principios SOLID.
-- Diseño de la API usando Open API (Swagger).
 - Implementación de capa de seguridad con OAuth.
 - Configuración de logback.
 - Creación de un starter básico en Spring.
