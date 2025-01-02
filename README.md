@@ -14,9 +14,9 @@ Este proyecto consiste en la creación de una API que devuelve información del 
 - Implementación de capa de seguridad con OAuth.
 - Configuración de logback.
 - Creación de un starter básico en Spring.
+- Dockerización de microservicios y BFF-Pendiente
 
-###Pendiente
--- Dockerización de microservicios y BFF.()
+
 
 ## Estructura del Proyecto
 1. **Microservicio de Cliente**: Contiene la información del cliente.
