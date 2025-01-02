@@ -127,6 +127,5 @@ El uso de la API puede ser demostrado desde Postman. Se debe realizar una petici
     ]
 }
 ```
-### Tener en cuenta que la parte de OAuth los microservicios estan en la carpeta retoapi y test2
 
 
