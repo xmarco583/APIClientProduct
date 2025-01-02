@@ -13,8 +13,10 @@ Este proyecto consiste en la creación de una API que devuelve información del 
 - Diseño de la API usando Open API (Swagger).
 - Implementación de capa de seguridad con OAuth.
 - Configuración de logback.
-- Dockerización de microservicios y BFF.
 - Creación de un starter básico en Spring.
+
+###Pendiente
+-- Dockerización de microservicios y BFF.()
 
 ## Estructura del Proyecto
 1. **Microservicio de Cliente**: Contiene la información del cliente.
